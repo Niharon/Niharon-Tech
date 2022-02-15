@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Karla", Sans-serif;
+}
+img {
+  width: 100%;
+  /* max-width: 100%; */
+}
+.container {
+  max-width: 1200px;
+  overflow: hidden;
+  /*    margin: 0 auto;*/
+}
+
+/* ======bg_imgpart====== */
+
+#bg_imgpart {
+  background-image: url(../images/akjsdv.jpg);
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.column_height {
+  min-height: calc(100vh - 60px);
+}
+
+.mid_text h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 80px;
+}
+
+/* =======technological_solution======= */
+
+.text_bold {
+  font-weight: bold;
+}
+
+#technological_solution .box_shadow {
+  box-shadow: 1px 1px 5px -1px #484646;
+  padding-left: 15px;
+}
+
+.fnt_wdd {
+  font-weight: lighter;
+}
+
+.link_design {
+  text-decoration: none;
+  color: black;
+}
+.link_design span i {
+  padding-left: 10px;
+}
+
+/* ==========project_section========== */
+
+.column_height2 {
+}
