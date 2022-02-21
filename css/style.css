@@ -1,0 +1,350 @@
+/* LAYOUT  */
+header{
+    position: -webkit-sticky !important;
+    position: sticky !important;
+}
+
+/* LAYOUT  */
+
+
+/*--------------------------------------- GLOBAL DEC  */
+.fas{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.sectionwidth{
+    width : 75%
+}
+@media screen and (max-width : 686px) {
+    .sectionwidth{
+        width : 90%
+    }
+}
+
+/* without white bg  */
+.zoom{
+    transition: transform .3s;
+}
+.zoom:hover {
+    
+    background-color: white;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1); 
+}
+
+
+/* without bg  */
+.zoom1{
+    transition: transform .3s;
+}
+.zoom1:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1); 
+    
+}
+
+.clr{
+    transition: transform .3s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.clr:hover{
+    color: black;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1); 
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+/*--------------------------------------- GLOBAL DEC  END */
+
+
+
+/*---------------------------------------  all btns  */
+
+.btn{
+    border-radius: 50px;
+    background-color: #51A4DA;
+    color: white;
+    font-weight: 600;
+}
+.btn:hover{
+    border-color: #20409A;
+    color: white;
+    background-color: #20409A;
+}
+
+/*---------------------------------------  all btns  */
+
+
+
+
+/*--------------------------------------- nav bar & header section START */
+header{
+    width: 100%;
+}
+nav{
+    width: 85%;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 0 5px; 
+}
+.page-active{
+    color: #07194b;
+    
+}
+
+@media screen and (max-width : 686px) {
+    nav{
+        width: 90%;
+    }
+}
+.logo-img{
+    width: 5%;
+    
+}
+.nav-text-size{
+    font-size: 14px;;
+}
+
+/* ---------------------------------------nav bar & header section END */
+
+
+
+
+
+
+/*--------------------------------------- CAROUsOL SECTION  */
+#item-1{
+    background-image: url('../images/carousol/Picture5.png');
+}
+/* #item-2{
+    background-image: url('../images/carousol/Picture2.png');
+}
+#item-3{
+    background-image: url('../images/carousol/Picture3.png');
+} */
+
+.carousel-item{
+    height: 440px;
+    background-size: cover;
+    background-position: center;
+}
+.car-row-width{
+    width: 70%;
+}
+@media screen and (max-width : 686px) {
+    .carousel-item{
+        height: 35vh;
+    }
+    
+}
+
+/*--------------------------------------- CAROUsOL SECTION  */
+
+
+
+
+
+
+
+/*--------------------------------------- products section  */
+.ccc{
+    height: 170px;
+    width: 100%;
+}
+
+.bg-card-prop{
+    background-size: cover;
+    background-position: top;
+}
+
+#c-1{
+    background-image: url('../images/covers/app\ banner\ ai\ low.jpg');
+}
+#c-2{
+    background-image: url('../images/covers/appposter.png');
+}
+#c-3{
+    background-image: url('../images/covers/OdolBodol\ Release.jpg');
+}
+.pp-rounded{
+    border-radius: 7px;
+}
+/*--------------------------------------- products section END  */
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------service section  */
+#s-1{
+    background-image: url('../images/covers/web-development.jpg');
+}
+#s-2{
+    background-image: url('../images/covers/android-or-ios-app-development1200.png');
+}
+#s-3{
+    background-image: url('../images/covers/soft.jpg');
+}
+/* -------------------------------------------------service section  */
+
+
+
+
+
+
+/*----------------------------------------------- indstries we server  */
+.iws-prop{
+    background-color: #51A4DA;
+    height: 250px;
+    width: 100%;
+}
+.iws-clild-prop{
+    width: 65%;
+}
+
+/*----------------------------------------------- indstries we server  */
+
+
+
+
+
+
+
+
+/*----------------------------------------------- be a partner section  */
+@media screen and (max-width : 686px) {
+    
+}
+/*----------------------------------------------- be a partner section  */
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------- industry_insight_section */
+
+/* 
+.iis-btn{
+    border-color: #51A4DA;
+    border-radius: 60px !important;
+}
+
+.iis-btn:hover{
+    border-color: #20409A;
+    color: white;
+    background-color: #20409A;
+}
+#industry_insight_section{
+    padding-top: 70px;
+}
+.iws-custom-width{
+    width: 85%;
+}
+.iis-custom-width{
+    width: 75%;
+}
+.iis-ccc{
+    height: 140px;
+    width: 100%;
+}
+#iis-1{
+    background-image:url(../images/iis/Cul-vr-1176741113.webp);
+}
+#iis-2{
+    background-image:url(../images/iis/fin.jpg);
+}
+#iis-3{
+    background-image:url(../images/iis/Future-Predictions-Of-How-Virtual-Reality-And-Augmented-Reality-Will-Reshape-Our-Lives.jpg);
+}
+#iis-4{
+    background-image:url(../images/iis/medi.jpg);
+}
+#iis-5{
+    background-image:url(../images/iis/Learning-Management-Systems-image.jpg);
+}
+#iis-6{
+    background-image:url(../images/iis/chatbot.png);
+}
+#iis-7{
+    background-image:url(../images/iis/12-Digital-Banking-Challenges-and-Opportunities-For-the-Banking-Industry-1.webp);
+} */
+
+
+
+
+
+
+/*--------------------------------------- office details  */
+/* .of-custom-width{
+    width: 93%;
+}
+
+.of-custom-height{
+    height: 550px;
+}
+.of-ccc{
+    
+    width: 100%;
+}
+#of-cloud-office{
+   
+    background-image:url(../images/of/pexels-djordje-petrovic-2102416.jpg);
+    height: 550px;
+}
+#of-dhk-office{
+    
+    background-image:url(../images/of/pexels-simon-reza-8957485.jpg);
+    height: 275px;
+}
+#of-raj-office{
+    
+    background-image:url(../images/of/rajshahi_road_side_tree.jpg);
+    height: 275px;
+}*/
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------footer section  */
+footer{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.footerWeight {
+    width: 85%;
+    /* font-size: 11px; */
+}
+.fa-angle-up{
+    font-size: 15px;
+    color: black;
+}
+
+@media screen and (max-width : 686px) {
+    .content{
+        margin: 0px 20px;
+    }
+}
+/* ---------------------------------------footer section  */
