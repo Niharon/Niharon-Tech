@@ -10,8 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="ourServiceStyle.css" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/ourServiceStyle.css" />
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -21,20 +21,20 @@
     <nav class="navbar navbar-expand-lg navbar-light my-0 ">
       <div class="container-fluid ">
         <div class="" id="logoDiv">
-          <img class="navbar-brand" src="images/logo/Niharon Logo Renew-02.png" style="width: 190px;" alt="">
+          <img class="navbar-brand" src="../images/logo/Niharon Logo Renew-02.png" style="width: 190px;" alt="">
           <!-- <a class="navbar-brand" href="#"></a> -->
         </div>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="images/svg icons/menu-2 1.svg" alt="">
+          <img src="../images/svg icons/menu-2 1.svg" alt="">
         </button>
 
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto me-lg-0 mb-2 mb-lg-0 nav-text-size ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link page-active" aria-current="page" href="index.html" style="color: #51A4DA;">Home</a>
             </li>
             <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -49,51 +49,29 @@
                         </ul>
                     </li> -->
 
-            <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            SERVICES
-                        </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            
-                            <li><a class="ps-3 text-black " href="#">Lite Scale Sites</a>
-                                <hr>
-                            </li>
-
-
-                            <li><a class="dropdown-item text-secondary" href="#">Blog Site</a></li>
-                            <li><a class="dropdown-item text-secondary" href="#">Portfolio Website</a></li>
-                            <li><a class="dropdown-item text-secondary" href="#">Web Portals</a></li>
-                            <li><a class="dropdown-item text-secondary" href="#">Landing Page</a></li>
-
-                            <li>
-                                <hr><a class="ps-3 text-black " href="#">Large Scale Sites</a>
-                                <hr>
-                            </li>
-
-                            <li><a class="dropdown-item text-secondary" href="#">E-Commerce Websites</a></li>
-                            <li><a class="dropdown-item text-secondary" href="#">Educational Websites</a></li>
-                            <li><a class="dropdown-item text-secondary" href="#">NGO /Non-Profit Websites</a></li>
-                            <li><a class="dropdown-item text-secondary" href="#">Full Customized Large Scale
-                                    Site</a></li>
-                        </ul>
-                    </li> -->
 
 
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="ourservices.html">OUR SERVICES</a>
+              <a class="nav-link" aria-current="page" href="#our_products_section" style="color: #51A4DA;">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">ABOUT US</a>
-            </li>
+              <a class="nav-link" aria-current="page" href="html/our-services.html" style="color: #51A4DA;">Our
+                Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="contact-us.html">CONTACT US</a>
+              <a class="nav-link" aria-current="page" href="#blog" style="color: #51A4DA;">Blog</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="html/about.html" style="color: #51A4DA;">About</a>
+            </li>
+            </li>
+
             <li class="nav-item ps-0 ps-lg-4">
-              <button type="button" id="get-in-toch-btn" class="btn w-100  nav-text-size btn-hover">GET IN
-                TOUCH</button>
+              <button type="button" id="conatct-us-btn" class="btn w-100 text-white nav-text-size btn-hover px-4"
+                style="font-size: 16px;font-weight: 600;">
+                Contact us <img width="20%" class="img-fluid" src="../images/svg icons/Path 1.png" alt="">
+              </button>
             </li>
           </ul>
         </div>
@@ -106,189 +84,77 @@
   </header>
 
 
-  <main  class="mb-5 pb-5">
+  <main class="mb-5 pb-5 d-flex flex-column justify-content-center align-items-center ">
 
+    <section id="our-servces-car" class="w-100  mb-5 pb-5 d-flex justify-content-center align-items-center">
 
-    <!-- ============bg_imgpart============= -->
+      <!-- <img src="../images/covers/sargra.jpg" class="img-fluid" alt=""> -->
+      <h1 class="fw-bolder text-secondary">OUR SERVICES</h1>
 
-
-    <section id="bg_imgpart">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center column_height align-items-center">
-            <div class="mid_text">
-              <h1>Our Services</h1>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
+    <section id="our-servces" class="w-sm-100 sectionwidth my-5 pb-5 ">
 
+      <div class="row g-5 d-flex justify-content-center align-items-center">
 
-    <!-- ============technological_solution============ -->
+        <div class="col-12 col-lg-6 ">
+          <div class="OS-services-card-prop shadow" id="OS-services-1">
 
-
-    <section id="technological_solution">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1 class="text-center my-5 py-4 fw-light">Technological Solutions</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-mobile fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">Web App Development</h5>
-                <p class="fnt_wdd">
-                  Develop robust online applications to suit your business needs
-                  and cater to your clients faithfully.
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-camera fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">Mobile App Development</h5>
-                <p class="fnt_wdd">
-                  Developing innovative and native mobile apps for Android, iOS,
-                  BlackBerry and Windows platforms
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-gear fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">AEM Solutions</h5>
-                <p class="fnt_wdd">
-                  AEM brings your content management system (CMS) & digital
-                  asset management (DAM) in one place
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-toolbox fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">ML & AI</h5>
-                <p class="fnt_wdd">
-                  Machine Learning and Artificial Intelligence solution for your
-                  organization by experts hand
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-mobile fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">Cloud Solution</h5>
-                <p class="fnt_wdd">
-                  We help large companies with enterprise-oriented certified
-                  cloud and cyber security solutions
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-mobile fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">E-commerce</h5>
-                <p class="fnt_wdd">
-                  We provide ultimate e-commerce solution as well as
-                  customizations for your e-commerce business
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-mobile fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">Web App Development</h5>
-                <p class="fnt_wdd">
-                  Develop robust online applications to suit your business needs
-                  and cater to your clients faithfully.
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-mobile fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">Web App Development</h5>
-                <p class="fnt_wdd">
-                  Develop robust online applications to suit your business needs
-                  and cater to your clients faithfully.
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-mobile fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">Web App Development</h5>
-                <p class="fnt_wdd">
-                  Develop robust online applications to suit your business needs
-                  and cater to your clients faithfully.
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-mobile fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">Web App Development</h5>
-                <p class="fnt_wdd">
-                  Develop robust online applications to suit your business needs
-                  and cater to your clients faithfully.
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 mb-5">
-            <div class="card shadow border-0 p-3" style="height: 350px;">
-              <div class="card-body">
-                <i class="fa fa-mobile fa-3x mb-3" style="color: #51A4DA"></i>
-                <h5 class="text_bold">Web App Development</h5>
-                <p class="fnt_wdd">
-                  Develop robust online applications to suit your business needs
-                  and cater to your clients faithfully.
-                </p>
-                <a href="#" class="link_design">Learn More <span><i class="fa fa-arrow-right"></i></span></a>
-              </div>
+            <div class="p-5">
+              <h2>Web Development</h2>
+              <p>Develop robust online applications to suit your business needs and cater to your clients faithfully.
+              </p>
+              <p class="">Learn More</p>
             </div>
           </div>
         </div>
+
+
+
+        <div class="col-12 col-lg-6 ">
+          <div class="OS-services-card-prop shadow" id="OS-services-3">
+
+            <div class="p-5">
+              <h2>Software</h2>
+              <p>We provide ultimate e-commerce solution as well as customizations for your e-commerce business</p>
+              <p>Learn More</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 ">
+          <div class="OS-services-card-prop shadow" id="OS-services-3">
+
+            <div class="p-5">
+              <h2>E-commerce</h2>
+              <p>We provide ultimate e-commerce solution as well as customizations for your e-commerce business</p>
+              <p>Learn More</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-12 col-lg-6 ">
+          <div class="OS-services-card-prop shadow" id="OS-services-2">
+
+            <div class="p-5">
+              <h2>Mobile App Development</h2>
+              <p>Developing innovative and native mobile apps for Android, iOS, BlackBerry and Windows platforms</p>
+              <p>Learn More</p>
+            </div>
+          </div>
+        </div>
+
       </div>
+
     </section>
 
     <!-- =========project_section======= -->
     <section id="project_section">
       <div class="container d-flex my-5">
-          <h1 class="fw-light fs-4 pe-5">Let us help you with your project</h1>
-          <button class="btn iis-btn px-5" id="">Contact Us</button>
+        <h2 class="fw-light fs-4 pe-5">Let us help you with your project</h2>
+        <button class="btn iis-btn px-5" id="">Contact Us</button>
       </div>
     </section>
   </main>
@@ -302,11 +168,11 @@
       <div class="row g-4" style="color:white;">
         <div class="col-sm-12 col-lg-5">
           <div>
-            <img class="" src="images/logo/Niharon Logo Renew-02.png" style="width: 250px;" alt="">
-            <p class="fs-6 pt-3">Client's Satisfaction is our priority.</p>
-            <p class="fs-6">Address 1 : 3rd Floor, New Super Market, Dhaka-Tarakandi Road, Bhuapur 1960,
-              Tangail, Dhaka, Bangladesh</p>
-            <p class="fs-6">Address 2 : Bashundhara R/A 1229 Dhaka, Dhaka Division, Bangladesh</p>
+            <img class="" src="../images/logo/Niharon Logo Renew-02.png" style="width: 250px;" alt="">
+            <p class="fs-6 pt-3">Serving people with SaaS products and technical support</p>
+            <p class="fs-6">Address 1 : 26/7 B Mayakanon, Sabujbag, Mugdha, Bashabo, Dhaka Division,
+              Bangladesh</p>
+            <p class="fs-6">Address 2 : Sako Bow Bazar, Beside Motihar Thana, Talaimari, Rajshahi</p>
 
             <div class="row g-3">
               <div class="col-4">
@@ -335,21 +201,23 @@
             <hr>
             <div class="row">
               <div class="col-6">
-                <p class="fs-6 m-0">Portfolio Websites</p>
-                <p class="fs-6 m-0">E-Commerce Websites</p>
-                <p class="fs-6 m-0">News Portal Websites</p>
-                <p class="fs-6 m-0">Blog Sites</p>
-                <p class="fs-6 m-0">Inventory Management System</p>
-                <p class="fs-6 m-0">Courier Management</p>
+                <p class="fs-6 m-0">Front-End Developers</p>
+                <p class="fs-6 m-0">Full Stack Developers</p>
+                <p class="fs-6 m-0">Nodej Developers </p>
+                <p class="fs-6 m-0">JavaScript Developers </p>
+                <p class="fs-6 m-0">React Developers </p>
+                <p class="fs-6 m-0">Java Developers </p>
+                <p class="fs-6 m-0">FP Developers </p>
               </div>
               <div class="col-6">
-                <p class="fs-6 m-0">Android App Dev</p>
-                <p class="fs-6 m-0">IOS App Dev</p>
-                <p class="fs-6 m-0">React JavaScript</p>
-                <p class="fs-6 m-0">Landing Page</p>
-                <p class="fs-6 m-0">Front-End Development</p>
-                <p class="fs-6 m-0">Back-End Development</p>
-                <p class="fs-6 m-0">MongoDB </p>
+                <p class="fs-6 m-0">Python Developers</p>
+                <p class="fs-6 m-0">C Developers </p>
+                <p class="fs-6 m-0">Unity 30 Developers</p>
+                <p class="fs-6 m-0">Android Developers</p>
+                <p class="fs-6 m-0">SQL Developers </p>
+                <p class="fs-6 m-0">UX Designers </p>
+                <p class="fs-6 m-0">Protact Owner</p>
+                <p class="fs-6 m-0">MongoDB</p>
               </div>
             </div>
 
@@ -361,11 +229,11 @@
             <hr>
 
             <p class="fs-6 m-0">Tel: 02-9856728</p>
-            <p class="fs-6 m-0">Mob: +8801319-940717</p>
-            <p class="fs-6 m-0">Mob: +8801917-364683 </p>
-            <p class="fs-6 m-0">admin@webdesk-inc.com</p>
+            <p class="fs-6 m-0">Mob: +880176-335199 (Reception)</p>
+            <p class="fs-6 m-0">Mob: +8801521-704287 (HR) </p>
+            <p class="fs-6 m-0">Email : niharonsoftware@gmail.com</p>
             <p class="fs-6 m-0"></p>
-            <p class="fs-6 m-0">Mob: +8801402-199906 </p>
+            <p class="fs-6 m-0">Mob: +8801402-199906 (Marketing & Sales)</p>
 
           </div>
         </div>

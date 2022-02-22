@@ -348,3 +348,29 @@ footer{
     }
 }
 /* ---------------------------------------footer section  */
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////
+/////////////// OUR SERVICE PAGE //////////////////
+/////////////////////////////////////////////////*/
+
+/* --------------------------------------our services car  */
+#our-servces-car{
+    background-image: url(../images/covers/sargra.jpg);
+    height: 400px;
+    
+}
+/* --------------------------------------our services car  */
+
+.OS-services-card-prop{
+    border-radius: 10px;
+    height: 300px;
+}
+
+/* #OS-services-1{
+} */
