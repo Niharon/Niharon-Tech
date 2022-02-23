@@ -99,7 +99,7 @@ nav{
     margin: 0 5px; 
 }
 .page-active{
-    color: #07194b;
+    color: #07194b !important;
     
 }
 #conatct-us-btn-img{
