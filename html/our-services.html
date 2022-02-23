@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto me-lg-0 mb-2 mb-lg-0 nav-text-size ">
             <li class="nav-item">
-              <a class="nav-link page-active" aria-current="page" href="index.html" style="color: #51A4DA;">Home</a>
+              <a class="nav-link page-active" aria-current="page" href="../index.html">Home</a>
             </li>
             <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -53,24 +53,25 @@
 
 
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#our_products_section" style="color: #51A4DA;">Products</a>
+              <a class="nav-link" aria-current="page" href="#our_products_section">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="html/our-services.html" style="color: #51A4DA;">Our
+              <a class="nav-link" aria-current="page" href="html/our-services.html">Our
                 Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#blog" style="color: #51A4DA;">Blog</a>
+              <a class="nav-link" aria-current="page" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="html/about.html" style="color: #51A4DA;">About</a>
+              <a class="nav-link" aria-current="page" href="html/about.html">About</a>
             </li>
             </li>
 
             <li class="nav-item ps-0 ps-lg-4">
               <button type="button" id="conatct-us-btn" class="btn w-100 text-white nav-text-size btn-hover px-4"
                 style="font-size: 16px;font-weight: 600;">
-                Contact us <img width="20%" class="img-fluid" src="../images/svg icons/Path 1.png" alt="">
+                Contact us
+                <img id="conatct-us-btn-img" class="" src="../images/svg icons/Path 1.png" alt="">
               </button>
             </li>
           </ul>
@@ -84,14 +85,28 @@
   </header>
 
 
+
+
+
+
+
   <main class="mb-5 pb-5 d-flex flex-column justify-content-center align-items-center ">
+
+
+
+
 
     <section id="our-servces-car" class="w-100  mb-5 pb-5 d-flex justify-content-center align-items-center">
 
       <!-- <img src="../images/covers/sargra.jpg" class="img-fluid" alt=""> -->
-      <h1 class="fw-bolder text-secondary">OUR SERVICES</h1>
+      <h1 class="fw-bolder" style="background-color: #f3f3f3a9; padding: 50px 100px;">OUR SERVICES</h1>
 
     </section>
+
+
+
+
+
 
     <section id="our-servces" class="w-sm-100 sectionwidth my-5 pb-5 ">
 
@@ -102,9 +117,10 @@
 
             <div class="p-5">
               <h2>Web Development</h2>
-              <p>Develop robust online applications to suit your business needs and cater to your clients faithfully.
+              <p>Receive full-cycle web development services from a draft idea to a ready-to-use website, backed by top
+                technologies.
               </p>
-              <p class="">Learn More</p>
+              <button onclick="location.href='../html/web-development.html' "  class="btn mt-3 px-5" id="web-dev-learn-more">Learn More</button>
             </div>
           </div>
         </div>
@@ -115,9 +131,10 @@
           <div class="OS-services-card-prop shadow" id="OS-services-3">
 
             <div class="p-5">
-              <h2>Software</h2>
-              <p>We provide ultimate e-commerce solution as well as customizations for your e-commerce business</p>
-              <p>Learn More</p>
+              <h2>Software Development</h2>
+              <p>Reach your users on their favorite devices with native and crossplatform development, supported by best
+                industry practices.</p>
+                <button onclick="location.href='../html/software-development.html' " class="btn mt-3 px-5" id="soft-dev-learn-more">Learn More</button>
             </div>
           </div>
         </div>
@@ -126,9 +143,9 @@
           <div class="OS-services-card-prop shadow" id="OS-services-3">
 
             <div class="p-5">
-              <h2>E-commerce</h2>
-              <p>We provide ultimate e-commerce solution as well as customizations for your e-commerce business</p>
-              <p>Learn More</p>
+              <h2>SaaS</h2>
+              <p>We provide Software as a Service through our various platforms.</p>
+              <button onclick="location.href='../html/saas-development.html' "  class="btn mt-3 px-5" id="saas-learn-more">Learn More</button>
             </div>
           </div>
         </div>
@@ -139,9 +156,9 @@
           <div class="OS-services-card-prop shadow" id="OS-services-2">
 
             <div class="p-5">
-              <h2>Mobile App Development</h2>
-              <p>Developing innovative and native mobile apps for Android, iOS, BlackBerry and Windows platforms</p>
-              <p>Learn More</p>
+              <h2>Education & Training</h2>
+              <p>We have E-learning platform where we provide an environment to learn programming.</p>
+              <button onclick="location.href='../html/eduNtrain.html' "  class="btn mt-3  px-5" id="edu-train-learn-more">Learn More</button>
             </div>
           </div>
         </div>
@@ -150,13 +167,22 @@
 
     </section>
 
-    <!-- =========project_section======= -->
+
+
+
+
+
+    <!-- let us help with the project -->
     <section id="project_section">
       <div class="container d-flex my-5">
         <h2 class="fw-light fs-4 pe-5">Let us help you with your project</h2>
         <button class="btn iis-btn px-5" id="">Contact Us</button>
       </div>
     </section>
+    <!-- let us help with the project -->
+
+
+
   </main>
 
 
@@ -252,6 +278,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
+    <script src="../js/our-services.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 
 </html>

@@ -80,6 +80,8 @@ a{
     background-color: #20409A;
 }
 
+
+
 /*---------------------------------------  all btns  */
 
 
@@ -100,10 +102,23 @@ nav{
     color: #07194b;
     
 }
+#conatct-us-btn-img{
+    width: 18%;
+}
+.nav-link{
+    color: #51A4DA !important;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #07194b !important;
+}
 
 @media screen and (max-width : 686px) {
     nav{
         width: 90%;
+    }
+    #conatct-us-btn-img{
+        width: 10%;
     }
 }
 .logo-img{
@@ -374,3 +389,33 @@ footer{
 
 /* #OS-services-1{
 } */
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////
+/////////////// OUR SERVICE PAGE SOFTWARE DEVELOPMENT ///////////////
+///////////////////////////////////////////////////////////////////*/
+
+#our-servces-soft-car{
+    background-image: url(../images/covers/SOFTWARE-ENNGG.jpg);
+    height: 400px;
+    
+}
+#our-servces-web-car{
+    background-image: url(../images/covers/web-dev.jpg);
+    height: 400px;
+    
+}
+#our-servces-edu-car{
+    background-image: url(../images/covers/eduNtrain.jpg);
+    height: 400px;
+    
+}
+#our-servces-saas-car{
+    background-image: url(../images/covers/saas-1.jpg);
+    height: 400px;
+    
+}
+
