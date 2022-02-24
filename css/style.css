@@ -99,9 +99,12 @@ nav{
     margin: 0 5px; 
 }
 .page-active{
-    color: #07194b !important;
-    
+    color: #07194b !important; 
 }
+.activePage{
+    color: #07194b;
+}
+
 #conatct-us-btn-img{
     width: 18%;
 }
@@ -204,14 +207,34 @@ nav{
 
 
 /* -------------------------------------------------service section  */
+.scc{
+    height: 210px;
+    width: 100%;
+}
 #s-1{
-    background-image: url('../images/covers/web-development.jpg');
+    background-image: url('../images/covers/web-dev.jpg');
 }
 #s-2{
-    background-image: url('../images/covers/android-or-ios-app-development1200.png');
+    background-image: url('../images/covers/sargra.jpg');
 }
 #s-3{
-    background-image: url('../images/covers/soft.jpg');
+    background-image: url('../images/covers/saas-1.jpg');
+}
+#s-4{
+    background-image: url('../images/covers/eduNtrain.jpg');
+}
+
+#s-1:hover{
+    filter: opacity(30%);
+}
+#s-2:hover{
+    filter: opacity(30%);
+}
+#s-3:hover{
+    filter: opacity(30%);
+}
+#s-4:hover{
+    filter: opacity(30%);
 }
 /* -------------------------------------------------service section  */
 
