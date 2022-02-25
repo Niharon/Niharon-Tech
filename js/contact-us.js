@@ -11,13 +11,14 @@ function sendEmail() {
     emailjs.send('service_u3shbvj', 'template_pw0963s', temParamsx, 'user_tddYoZg4Dc7m2gTSX0C0C')
         .then(function () {
             swal("Done!", "Message Sent Successfully!", "success");
+            document.getElementById("cntForm").reset();
         }, function () {
             swal("Opps!", "Something Went Wrong", "warning");
         });
 
 
     // console.log(temParamsx);//
-    document.getElementById("cntForm").reset();
+    
 
 
 }
