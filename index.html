@@ -102,7 +102,7 @@
 
 
 
-    <main class="w-100 d-flex flex-column justify-content-center align-items-center my-4">
+    <main class="w-100 d-flex flex-column justify-content-center align-items-center mb-4">
 
 
         <!-- carousol   -->
@@ -112,35 +112,43 @@
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
-                    <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button> -->
+                        aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                    <div class="carousel-item w-100 active d-flex justify-content-center align-items-center"
-                        id="item-1">
-                        <div class="row g-0 car-row-width">
-                            <div class="d-none d-lg-block col-lg-6">
-                                <div class="w-100">
-                                    <h1 class="text-secondary mt-4">Introducing Our</h1>
-                                    <h1 class="fw-lighter" style="font-size: 60px;color: #51A4DA;">LATEST PRODUCT</h1>
-                                    <button type="button" id="get-a-quote-btn" class="btn mt-3 px-5">Get A Quote
-                                        -></button>
+                    <div class="carousel-item w-100" id="item-1">
+
+
+
+                        <div class="animated-title">
+                            <div class="text-top">
+                                <div>
+                                    <span class="p-0 m-0 ">Niharon Techonologies</span>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-lg-6">
-                                <img src="images/carousol/OdolBodol-c.jpg" class="w-100" alt="">
+                            <div class="text-bottom">
+                                <div class="fs-4 pt-2">We deliver applied
+                                    research innovation, technology development and solutions for customers large and
+                                    small across the
+                                    world.</div>
                             </div>
-
                         </div>
+
+
+
+
                     </div>
-                    <!-- <div class="carousel-item w-100" id="item-2">
-                        
+                    <div class="carousel-item w-100" id="item-2">
+                        <!-- <div class="container">
+                            
+                        </div> -->
                     </div>
                     <div class="carousel-item w-100 active" id="item-3">
-                       
-                    </div> -->
+                        <!-- <div class="container">
+                        </div> -->
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
@@ -248,12 +256,14 @@
                 <div class="container text-secondary">
                     <div class="row  g-4">
 
-                        <div class="col-6">
+                        <div class="col-sm-12 col-lg-6">
                             <div
                                 class="shadow d-flex flex-column justify-content-center align-items-center overflow-hidden pp-rounded">
 
-                                <div id="s-1" class="scc bg-card-prop  d-flex  justify-content-center align-items-center">
-                                    <button type="button" id="s1-btn" class="btn d-none px-5">View Details</button>
+                                <div id="s-1"
+                                    class="scc bg-card-prop zIndexDiv d-flex  justify-content-center align-items-center">
+                                    <button onclick="location.href='./html/web-development.html'" type="button"
+                                        id="s1-btn" class="btn px-5 zIndexBtn order-1">View Details</button>
                                 </div>
                                 <p class="pt-3 text-center">
                                     Web Development
@@ -263,12 +273,13 @@
 
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-sm-12 col-lg-6">
                             <div
                                 class="shadow d-flex flex-column justify-content-center align-items-center overflow-hidden pp-rounded">
 
                                 <div id="s-2" class="scc bg-card-prop d-flex justify-content-center align-items-center">
-                                    <button type="button" id="" class="btn  px-5">View Details</button>
+                                    <button onclick="location.href='./html/software-development.html'" type="button"
+                                        id="" class="btn  px-5">View Details</button>
                                 </div>
                                 <p class="pt-3 text-center">
                                     Software Development
@@ -278,12 +289,13 @@
 
                         </div>
 
-                        <div class="col-6 ">
+                        <div class="col-sm-12 col-lg-6 ">
                             <div
                                 class="shadow d-flex flex-column justify-content-center align-items-center overflow-hidden pp-rounded">
 
                                 <div id="s-3" class="scc bg-card-prop d-flex justify-content-center align-items-center">
-                                    <button type="button" id="" class="btn  px-5">View Details</button>
+                                    <button onclick="location.href='./html/saas-development.html'" type="button" id=""
+                                        class="btn  px-5">View Details</button>
                                 </div>
                                 <p class="pt-3 text-center">
                                     SaaS
@@ -292,12 +304,13 @@
 
                         </div>
 
-                        <div class="col-6 ">
+                        <div class="col-sm-12 col-lg-6 ">
                             <div
                                 class="shadow d-flex flex-column justify-content-center align-items-center overflow-hidden pp-rounded">
 
                                 <div id="s-4" class="scc bg-card-prop d-flex justify-content-center align-items-center">
-                                    <button type="button" id="" class="btn  px-5">View Details</button>
+                                    <button onclick="location.href='./html/eduNtrain.html'" type="button"
+                                        id="" class="btn  px-5">View Details</button>
                                 </div>
                                 <p class="pt-3 text-center">
                                     Education & Training

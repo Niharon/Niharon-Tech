@@ -141,19 +141,19 @@ nav{
 
 /*--------------------------------------- CAROUsOL SECTION  */
 #item-1{
-    background-image: url('../images/carousol/Picture5.png');
+    background-image: url('../images/carousol/tech-cruve.jpg');
 }
-/* #item-2{
-    background-image: url('../images/carousol/Picture2.png');
+#item-2{
+    background-image: url('../images/carousol/womenintech.jpg');
 }
 #item-3{
-    background-image: url('../images/carousol/Picture3.png');
-} */
+    background-image: url('../images/carousol/dfg.jpg');
+}
 
 .carousel-item{
-    height: 440px;
+    height: 450px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 .car-row-width{
     width: 70%;
@@ -161,9 +161,78 @@ nav{
 @media screen and (max-width : 686px) {
     .carousel-item{
         height: 35vh;
+        
+    }
+    .animated-title{
+        display: none;
     }
     
 }
+
+
+/* car animation  */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+  color: rgb(255, 255, 255);
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 110vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 10vmin;
+  /* padding: 2vmin 0; */
+  padding: 0 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+  padding: 0; margin: 0;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid rgb(255, 255, 255);
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 0.2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #ffffff;
+}
+.animated-title > div.text-bottom {
+    
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.1s;
+  animation-delay: 1.0s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}
+/* car animation  */
 
 /*--------------------------------------- CAROUsOL SECTION  */
 
@@ -224,7 +293,7 @@ nav{
     background-image: url('../images/covers/eduNtrain.jpg');
 }
 
-#s-1:hover{
+/* #s-1:hover{
     filter: opacity(30%);
 }
 #s-2:hover{
@@ -235,7 +304,8 @@ nav{
 }
 #s-4:hover{
     filter: opacity(30%);
-}
+} */
+
 /* -------------------------------------------------service section  */
 
 
