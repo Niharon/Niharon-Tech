@@ -144,14 +144,14 @@ nav{
     background-image: url('../images/carousol/tech-cruve.jpg');
 }
 #item-2{
-    background-image: url('../images/carousol/womenintech.jpg');
+    background-image: url('../images/carousol/dfg.jpg');
 }
 #item-3{
-    background-image: url('../images/carousol/dfg.jpg');
+    background-image: url('../images/carousol/womenintech.jpg');
 }
 
 .carousel-item{
-    height: 450px;
+    height: 75vh;
     background-size: cover;
     background-position: top;
 }
@@ -327,6 +327,33 @@ nav{
 
 
 
+/*--------------------------------------------------------------- blog  */
+.sectionwidthBlog{
+    width: 80%;
+}
+.bcc{
+    height: 170px;
+    width: 100%;
+}
+
+.bg-card-prop-blog{
+    background-size: cover;
+    background-position: top;
+}
+
+#blog-1{
+    background-image: url('../images/dev/ngo.jpg');
+}
+#blog-3{
+    background-image: url('../images/dev/Ecommerce-Business-Ideas-1.jpg');
+}
+#blog-2{
+    background-image: url('../images/dev/macOS_Dark_Mode.png');
+}
+.pp-rounded{
+    border-radius: 7px;
+}
+/*--------------------------------------------------------------- blog  */
 
 
 
