@@ -1,0 +1,556 @@
+/* LAYOUT  */
+header{
+    position: -webkit-sticky !important;
+    position: sticky !important;
+}
+
+/* LAYOUT  */
+
+
+/*--------------------------------------- GLOBAL DEC  */
+.fas{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.sectionwidth{
+    width : 75%
+}
+@media screen and (max-width : 686px) {
+    .sectionwidth{
+        width : 90%
+    }
+}
+
+/* without white bg  */
+.zoom{
+    transition: transform .3s;
+}
+.zoom:hover {
+    
+    background-color: white;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1); 
+}
+
+
+/* without bg  */
+.zoom1{
+    transition: transform .3s;
+}
+.zoom1:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1); 
+    
+}
+
+.clr{
+    transition: transform .3s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.clr:hover{
+    color: black;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1); 
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+/*--------------------------------------- GLOBAL DEC  END */
+
+
+
+/*---------------------------------------  all btns  */
+
+.btn{
+    border-radius: 50px;
+    background-color: #51A4DA;
+    color: white;
+    font-weight: 600;
+}
+.btn:hover{
+    border-color: #20409A;
+    color: white;
+    background-color: #20409A;
+}
+
+
+
+/*---------------------------------------  all btns  */
+
+
+
+
+/*--------------------------------------- nav bar & header section START */
+header{
+    width: 100%;
+}
+nav{
+    width: 85%;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 0 5px; 
+}
+.page-active{
+    color: #07194b !important; 
+}
+.activePage{
+    color: #07194b;
+}
+
+#conatct-us-btn-img{
+    width: 18%;
+}
+.nav-link{
+    color: #51A4DA !important;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #07194b !important;
+}
+
+@media screen and (max-width : 686px) {
+    nav{
+        width: 90%;
+    }
+    #conatct-us-btn-img{
+        width: 10%;
+    }
+}
+.logo-img{
+    width: 5%;
+    
+}
+.nav-text-size{
+    font-size: 14px;;
+}
+
+/* ---------------------------------------nav bar & header section END */
+
+
+
+
+
+
+/*--------------------------------------- CAROUsOL SECTION  */
+#item-1{
+    background-image: url('../images/carousol/tech-cruve.jpg');
+}
+#item-2{
+    background-image: url('../images/carousol/dfg.jpg');
+}
+#item-3{
+    background-image: url('../images/carousol/womenintech.jpg');
+}
+
+.carousel-item{
+    height: 75vh;
+    background-size: cover;
+    background-position: top;
+}
+.car-row-width{
+    width: 70%;
+}
+@media screen and (max-width : 686px) {
+    .carousel-item{
+        height: 35vh;
+        
+    }
+    .animated-title{
+        display: none;
+    }
+    
+}
+
+
+/* car animation  */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+  color: rgb(255, 255, 255);
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 110vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 10vmin;
+  /* padding: 2vmin 0; */
+  padding: 0 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+  padding: 0; margin: 0;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid rgb(255, 255, 255);
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 0.2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #ffffff;
+}
+.animated-title > div.text-bottom {
+    
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.1s;
+  animation-delay: 1.0s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}
+/* car animation  */
+
+/*--------------------------------------- CAROUsOL SECTION  */
+
+
+
+
+
+
+
+/*--------------------------------------- products section  */
+.ccc{
+    height: 170px;
+    width: 100%;
+}
+
+.bg-card-prop{
+    background-size: cover;
+    background-position: top;
+}
+
+#c-1{
+    background-image: url('../images/covers/app\ banner\ ai\ low.jpg');
+}
+#c-2{
+    background-image: url('../images/covers/appposter.png');
+}
+#c-3{
+    background-image: url('../images/covers/OdolBodol\ Release.jpg');
+}
+.pp-rounded{
+    border-radius: 7px;
+}
+/*--------------------------------------- products section END  */
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------service section  */
+.scc{
+    height: 210px;
+    width: 100%;
+}
+#s-1{
+    background-image: url('../images/covers/web-dev.jpg');
+}
+#s-2{
+    background-image: url('../images/covers/sargra.jpg');
+}
+#s-3{
+    background-image: url('../images/covers/saas-1.jpg');
+}
+#s-4{
+    background-image: url('../images/covers/eduNtrain.jpg');
+}
+
+/* #s-1:hover{
+    filter: opacity(30%);
+}
+#s-2:hover{
+    filter: opacity(30%);
+}
+#s-3:hover{
+    filter: opacity(30%);
+}
+#s-4:hover{
+    filter: opacity(30%);
+} */
+
+/* -------------------------------------------------service section  */
+
+
+
+
+
+
+/*----------------------------------------------- indstries we server  */
+.iws-prop{
+    background-color: #51A4DA;
+    height: 250px;
+    width: 100%;
+}
+.iws-clild-prop{
+    width: 65%;
+}
+
+/*----------------------------------------------- indstries we server  */
+
+
+
+/*--------------------------------------------------------------- blog  */
+.sectionwidthBlog{
+    width: 80%;
+}
+.bcc{
+    height: 170px;
+    width: 100%;
+}
+
+.bg-card-prop-blog{
+    background-size: cover;
+    background-position: top;
+}
+
+#blog-1{
+    background-image: url('../images/dev/ngo.jpg');
+}
+#blog-3{
+    background-image: url('../images/dev/Ecommerce-Business-Ideas-1.jpg');
+}
+#blog-2{
+    background-image: url('../images/dev/macOS_Dark_Mode.png');
+}
+.pp-rounded{
+    border-radius: 7px;
+}
+/*--------------------------------------------------------------- blog  */
+
+
+
+
+
+/*----------------------------------------------- be a partner section  */
+@media screen and (max-width : 686px) {
+    
+}
+/*----------------------------------------------- be a partner section  */
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------- industry_insight_section */
+
+/* 
+.iis-btn{
+    border-color: #51A4DA;
+    border-radius: 60px !important;
+}
+
+.iis-btn:hover{
+    border-color: #20409A;
+    color: white;
+    background-color: #20409A;
+}
+#industry_insight_section{
+    padding-top: 70px;
+}
+.iws-custom-width{
+    width: 85%;
+}
+.iis-custom-width{
+    width: 75%;
+}
+.iis-ccc{
+    height: 140px;
+    width: 100%;
+}
+#iis-1{
+    background-image:url(../images/iis/Cul-vr-1176741113.webp);
+}
+#iis-2{
+    background-image:url(../images/iis/fin.jpg);
+}
+#iis-3{
+    background-image:url(../images/iis/Future-Predictions-Of-How-Virtual-Reality-And-Augmented-Reality-Will-Reshape-Our-Lives.jpg);
+}
+#iis-4{
+    background-image:url(../images/iis/medi.jpg);
+}
+#iis-5{
+    background-image:url(../images/iis/Learning-Management-Systems-image.jpg);
+}
+#iis-6{
+    background-image:url(../images/iis/chatbot.png);
+}
+#iis-7{
+    background-image:url(../images/iis/12-Digital-Banking-Challenges-and-Opportunities-For-the-Banking-Industry-1.webp);
+} */
+
+
+
+
+
+
+/*--------------------------------------- office details  */
+/* .of-custom-width{
+    width: 93%;
+}
+
+.of-custom-height{
+    height: 550px;
+}
+.of-ccc{
+    
+    width: 100%;
+}
+#of-cloud-office{
+   
+    background-image:url(../images/of/pexels-djordje-petrovic-2102416.jpg);
+    height: 550px;
+}
+#of-dhk-office{
+    
+    background-image:url(../images/of/pexels-simon-reza-8957485.jpg);
+    height: 275px;
+}
+#of-raj-office{
+    
+    background-image:url(../images/of/rajshahi_road_side_tree.jpg);
+    height: 275px;
+}*/
+
+
+/* -----------------------------------------------------------------cnt us  */
+.cnt-us-card-h{
+    height: 300px;
+}
+/* -----------------------------------------------------------------cnt us  */
+
+
+
+
+
+
+/* ---------------------------------------footer section  */
+footer{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.footerWeight {
+    width: 85%;
+    /* font-size: 11px; */
+}
+.fa-angle-up{
+    font-size: 15px;
+    color: black;
+}
+
+@media screen and (max-width : 686px) {
+    .content{
+        margin: 0px 20px;
+    }
+}
+/* ---------------------------------------footer section  */
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////
+/////////////// OUR SERVICE PAGE //////////////////
+/////////////////////////////////////////////////*/
+
+/* --------------------------------------our services car  */
+#our-servces-car{
+    background-image: url(../images/covers/sargra.jpg);
+    height: 400px;
+    
+}
+/* --------------------------------------our services car  */
+
+.OS-services-card-prop{
+    border-radius: 10px;
+    height: 300px;
+}
+
+/* #OS-services-1{
+} */
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////
+/////////////// OUR SERVICE PAGE SOFTWARE DEVELOPMENT ///////////////
+///////////////////////////////////////////////////////////////////*/
+
+#our-servces-soft-car{
+    background-image: url(../images/covers/SOFTWARE-ENNGG.jpg);
+    height: 400px;
+    
+}
+#our-servces-web-car{
+    background-image: url(../images/covers/web-dev.jpg);
+    height: 400px;
+    
+}
+#our-servces-edu-car{
+    background-image: url(../images/covers/eduNtrain.jpg);
+    height: 400px;
+    
+}
+#our-servces-saas-car{
+    background-image: url(../images/covers/saas-1.jpg);
+    height: 400px;
+    
+}
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////
+//////////////////////////// ABOUT US PAGE //////////////////////////
+///////////////////////////////////////////////////////////////////*/
+
+
