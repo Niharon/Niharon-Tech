@@ -64,20 +64,30 @@ a{
 
 /*--------------------------------------- GLOBAL DEC  END */
 
-
-
 /*---------------------------------------  all btns  */
 
-.btn{
-    border-radius: 50px;
-    background-color: #51A4DA;
-    color: white;
-    font-weight: 600;
+
+.padding_btn{
+   padding: 0 5px !important;
 }
-.btn:hover{
-    border-color: #20409A;
-    color: white;
-    background-color: #20409A;
+
+
+.btn_style {
+	border-radius: 50px;
+	/* background-color: #51A4DA; */
+	background: linear-gradient( 360deg, #071728 56%, #114c6b 58% ) !important;
+	color: white;
+	font-weight: 600;
+	/* padding: 10px 20px; */
+	width: 140px;
+}
+
+
+.btn_style:hover{
+    background: #2548a7;
+    box-shadow: 1px 1px 8px 4px #b2b2b2;
+    color: #f0eaea;
+    transition: all linear 0.4s;
 }
 
 
