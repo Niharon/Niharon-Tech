@@ -64,21 +64,45 @@ a{
 
 /*--------------------------------------- GLOBAL DEC  END */
 
-
-
 /*---------------------------------------  all btns  */
 
-.btn{
+
+.padding_btn{
+   padding: 0 5px !important;
+}
+
+.btn_style {
+	border-radius: 50px;
+	background-color: #51A4DA;
+	/* background: linear-gradient( 360deg, #071728 56%, #114c6b 58% ) !important; */
+	color: white;
+	font-weight: 600;
+	width: 140px;
+    transition: all linear 0.4s;
+    /* padding: 10px 20px; */
+}
+
+.btn_style:hover{
+    background: #1d74ad;
+    color: #f0eaea;
+    transition: all linear 0.4s;
+}
+
+.btn_style2 {
+	border: 2px solid #51A4DA ;
     border-radius: 50px;
-    background-color: #51A4DA;
-    color: white;
     font-weight: 600;
+    transition: all linear 0.4s;
 }
-.btn:hover{
-    border-color: #20409A;
-    color: white;
-    background-color: #20409A;
+.btn_style2:hover {
+	background:#51A4DA ;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    transition: all linear 0.4s;
 }
+
+
 
 
 
@@ -134,10 +158,30 @@ nav{
 
 /* ---------------------------------------nav bar & header section END */
 
+/*--------------------- book card design--------------------- */
+
+
+.font_style{
+    /* font-family: Merienda; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.card_hgt{
+    height: 60px;
+}
 
 
 
 
+/* ---------------------youtube video design--------------------- */
+
+.vdo_size iframe{
+  padding: 60px;
+  width: 50rem;
+  height: 30rem;
+
+}
 
 /*--------------------------------------- CAROUsOL SECTION  */
 #item-1{
@@ -353,6 +397,7 @@ nav{
 .pp-rounded{
     border-radius: 7px;
 }
+
 /*--------------------------------------------------------------- blog  */
 
 
