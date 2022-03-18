@@ -1,0 +1,38 @@
+@media screen and (max-width: 700px) and (min-width: 300px) {
+  .respos_font{
+    font-weight: 600;
+    letter-spacing: -1px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 500px) {
+  .vdo_size iframe{
+    padding: 30px !important;
+    width: 35rem !important;
+    height: 22rem !important;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 340px) {
+  .vdo_size iframe{
+    padding: 30px !important;
+    width: 25rem !important;
+    height: 16rem !important;
+  }
+}
+
+
+
+
+
+/* @media screen and (max-width: 520px) and (min-width: 300px) {
+  .embed-responsive{
+    padding: 20px;
+   max-height: 250 !important;
+   max-width: 300 !important;
+}
+} */
+
+
+
+
+
