@@ -6,7 +6,6 @@ header{
 
 /* LAYOUT  */
 
-
 /*--------------------------------------- GLOBAL DEC  */
 .fas{
     font-size: 30px;
@@ -36,7 +35,6 @@ a{
     transform: scale(1.1); 
 }
 
-
 /* without bg  */
 .zoom1{
     transition: transform .3s;
@@ -45,7 +43,6 @@ a{
     -ms-transform: scale(1.5); 
     -webkit-transform: scale(1.5); 
     transform: scale(1.1); 
-    
 }
 
 .clr{
@@ -65,8 +62,7 @@ a{
 /*--------------------------------------- GLOBAL DEC  END */
 
 
-
-/*---------------------------------------  all btns  */
+/*---------------------------------------  all btn  */
 
 .btn{
     border-radius: 50px;
@@ -79,8 +75,7 @@ a{
     color: white;
     background-color: #20409A;
 }
-/*---------------------------------------  all btns  */
-
+/*---------------------------------------  all btn  */
 
 /* -----rony er button css code----- */
 
@@ -122,7 +117,6 @@ a{
 	font-weight: 600;
 	transition: all linear 0.4s;
 }
-
 
 /* youtube vdo responsive */
 
@@ -187,14 +181,7 @@ nav{
 	height: 60px;
 }
 
-
-
-
 /* ---------------------------------------nav bar & header section END */
-
-
-
-
 
 
 /*--------------------------------------- CAROUsOL SECTION  */
@@ -207,7 +194,6 @@ nav{
 #item-3{
     background-image: url('../images/carousol/womenintech.jpg');
 }
-
 .carousel-item{
     height: 75vh;
     background-size: cover;
@@ -219,12 +205,10 @@ nav{
 @media screen and (max-width : 686px) {
     .carousel-item{
         height: 35vh;
-        
     }
     .animated-title{
         display: none;
     }
-    
 }
 
 
@@ -295,11 +279,6 @@ nav{
 /*--------------------------------------- CAROUsOL SECTION  */
 
 
-
-
-
-
-
 /*--------------------------------------- products section  */
 .ccc{
     height: 170px;
@@ -310,7 +289,6 @@ nav{
     background-size: cover;
     background-position: top;
 }
-
 #c-1{
     background-image: url('../images/covers/app\ banner\ ai\ low.jpg');
 }
@@ -324,13 +302,6 @@ nav{
     border-radius: 7px;
 }
 /*--------------------------------------- products section END  */
-
-
-
-
-
-
-
 
 
 /* -------------------------------------------------service section  */
@@ -366,11 +337,6 @@ nav{
 
 /* -------------------------------------------------service section  */
 
-
-
-
-
-
 /*----------------------------------------------- indstries we server  */
 .iws-prop{
     background-color: #51A4DA;
@@ -383,8 +349,6 @@ nav{
 
 /*----------------------------------------------- indstries we server  */
 
-
-
 /*--------------------------------------------------------------- blog  */
 .sectionwidthBlog{
     width: 80%;
@@ -393,12 +357,10 @@ nav{
     height: 170px;
     width: 100%;
 }
-
 .bg-card-prop-blog{
     background-size: cover;
     background-position: top;
 }
-
 #blog-1{
     background-image: url('../images/dev/ngo.jpg');
 }
@@ -413,24 +375,11 @@ nav{
 }
 /*--------------------------------------------------------------- blog  */
 
-
-
-
-
 /*----------------------------------------------- be a partner section  */
 @media screen and (max-width : 686px) {
     
 }
 /*----------------------------------------------- be a partner section  */
-
-
-
-
-
-
-
-
-
 
 /*--------------------------------------- industry_insight_section */
 
@@ -480,11 +429,6 @@ nav{
     background-image:url(../images/iis/12-Digital-Banking-Challenges-and-Opportunities-For-the-Banking-Industry-1.webp);
 } */
 
-
-
-
-
-
 /*--------------------------------------- office details  */
 /* .of-custom-width{
     width: 93%;
@@ -513,17 +457,11 @@ nav{
     height: 275px;
 }*/
 
-
 /* -----------------------------------------------------------------cnt us  */
 .cnt-us-card-h{
     height: 300px;
 }
 /* -----------------------------------------------------------------cnt us  */
-
-
-
-
-
 
 /* ---------------------------------------footer section  */
 footer{
@@ -546,12 +484,6 @@ footer{
 }
 /* ---------------------------------------footer section  */
 
-
-
-
-
-
-
 /*/////////////////////////////////////////////////
 /////////////// OUR SERVICE PAGE //////////////////
 /////////////////////////////////////////////////*/
@@ -572,10 +504,6 @@ footer{
 /* #OS-services-1{
 } */
 
-
-
-
-
 /*///////////////////////////////////////////////////////////////////
 /////////////// OUR SERVICE PAGE SOFTWARE DEVELOPMENT ///////////////
 ///////////////////////////////////////////////////////////////////*/
@@ -583,12 +511,10 @@ footer{
 #our-servces-soft-car{
     background-image: url(../images/covers/SOFTWARE-ENNGG.jpg);
     height: 400px;
-    
 }
 #our-servces-web-car{
     background-image: url(../images/covers/web-dev.jpg);
     height: 400px;
-    
 }
 #our-servces-edu-car{
     background-image: url(../images/covers/eduNtrain.jpg);
@@ -598,17 +524,6 @@ footer{
 #our-servces-saas-car{
     background-image: url(../images/covers/saas-1.jpg);
     height: 400px;
-    
 }
 
-
-
-
-
-
-
-/*///////////////////////////////////////////////////////////////////
-//////////////////////////// ABOUT US PAGE //////////////////////////
-///////////////////////////////////////////////////////////////////*/
-
-
+/*////////////////////////////// ABOUT US PAGE ////////////////////////////*/
