@@ -1,3 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+
+
+#header_part {
+    width: 100%;
+    background: url(../images/carousol/pexels-anna-overlay.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 130px;
+    /*   min-height: 750px;*/
+    overflow: hidden;
+  }
+  
+  #header_part::before {
+    content: "";
+    height: 150px;
+    position: absolute;
+    background: #ffffff;
+    transform: rotate(10deg);
+    bottom: -113px;
+    width: 80%;
+    left: -50px;
+  }
+  
+  #header_part::after {
+    content: "";
+    height: 150px;
+    position: absolute;
+    background: #ffffff;
+    transform: rotate(-10deg);
+    bottom: -113px;
+    width: 80%;
+    right: -50px;
+  }
+  
+  /*
+  .bg_overlay {
+     
+      position: absolute;
+      width: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+  }
+  */
+
+.my_nav {
+    margin-left: auto;
+}
+  
+.my_nav li {
+
+}
+  
+.my_nav li a {
+    color: #f3f3f3 !important;
+    padding: 10px 15px !important;
+    position: relative;
+    /* transition: all linear 0.6s; */
+    /* overflow: hidden; */
+    font-size: 18px;
+}
+  
+.my_nav li a:after{
+    content: "";
+    position: absolute;
+    background-color: #51a4da;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    }
+  
+.my_nav li a:hover:after{
+    width: 100%;
+}
+
+  .nav-icn i {
+    font-size: 5px;
+}
+  
+  .hellow-word {
+    background: rgba(255, 255, 255, 0.05);
+    color: #1ebba3;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 150px;
+    letter-spacing: 0.1em;
+}
+  
+  .hellow-word i {
+    font-size: 7px;
+    margin: 0 5px;
+    opacity: 0.25;
+    vertical-align: middle;
+}
+  
+  .type_writer {
+    margin-top: 50px;
+}
+  
+  .type_writer h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+  
+  .type_writer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+.mt_20{
+    margin-top: -20px;
+}
+
+.mt_100{
+    margin-top: 140px;
+}
+
+
+  .banner_part {
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+  
+  .text-center {
+    margin: 7px 0;
+}
+  
+  .social_icon {
+    margin-top: 35px;
+}
+  
+  .social_icon li {
+}
+  
+  .social_icon li a {
+    color: #dddddd;
+    opacity: 0.7;
+}
+  
+  .social_icon li a i {
+}
+  
+  .line {
+    height: 50px;
+    width: 1px;
+    background: #dddddd;
+    display: inline-block;
+    opacity: 0.8;
+}
+  
+
+/*===========about_part================*/
+
+#about_part {
+    width: 100%;
+    /* padding-bottom: 30px; */
+}
+  
+  .bg_wht_img {
+	height: 170px;
+	width: 170px;
+	background: #ffffff;
+	border-radius: 100px;
+	margin-top: -100px;
+	position: absolute;
+	margin-left: -80px;
+}
+
+  .about-img {
+
+}
+  
+.about-img img {
+	width: 150px;
+	border: 8px solid #87d5c6;
+	margin-top: 10px;
+	position: absolute;
+	margin-left: 10px;
+}
+
+.mt_60{
+    margin-top: 60px;
+}
+.about_txt h2 {
+    font-weight: 700;
+    /* margin-top: 20px; */
+    color: #1e459c;
+   
+}
+
+.about_txt h5 {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+    .about_txt p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+  
+  .about_txt button {
+    margin: 0 5px 10px 5px;
+    color: #000000;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    background: rgba(49, 184, 208, 0.09);
+}
+  
+  .about_txt button:hover {
+    margin: 0 5px 10px 5px;
+    color: #ffffff;
+    font-size: 14px;
+    border: 1px solid #31b8d0;
+    background: #31b8d0;
+}
+  
+/* ==============our_products_section============== */
+
+.heading_color{
+    color:#1e459c;
+}
+
+
+/* =============old home page============= */
 /* LAYOUT  */
 header{
     position: -webkit-sticky !important;
@@ -131,7 +379,7 @@ header{
     width: 100%;
 }
 nav{
-    width: 85%;
+    width: 80%;
 }
 .nav-link{
     font-size: 16px;
@@ -151,9 +399,11 @@ nav{
     color: #51A4DA !important;
     font-weight: 600;
 }
-.nav-link:hover{
-    color: #07194b !important;
-}
+/* .nav-link:hover{
+    color: #ffee02 !important;
+    font-size: 18px;
+    transition: all 400ms ease-in-out;
+} */
 
 @media screen and (max-width : 686px) {
     nav{
