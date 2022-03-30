@@ -8,6 +8,13 @@
 h1, h2, h3, h4, h5, h6{
     font-weight: 700;
 }
+/* 
+body{
+    background: #c8e2f3;
+} */
+
+
+
 
 
 #header_part {
@@ -20,6 +27,7 @@ h1, h2, h3, h4, h5, h6{
     padding-bottom: 130px;
     /*   min-height: 750px;*/
     overflow: hidden;
+    height: 121vh;
   }
   
   #header_part::before {
@@ -58,19 +66,23 @@ h1, h2, h3, h4, h5, h6{
 
 .my_nav {
     margin-left: auto;
+    /* text-align: right; */
 }
-  
+
+
 .my_nav li {
 
 }
   
 .my_nav li a {
     color: #f3f3f3 !important;
-    padding: 10px 15px !important;
+    padding: 10px 15px;
     position: relative;
+    font-size: 15px;
+    float: right;
+    /* text-align: center; */
     /* transition: all linear 0.6s; */
     /* overflow: hidden; */
-    font-size: 18px;
 }
   
 .my_nav li a:after{
@@ -82,6 +94,7 @@ h1, h2, h3, h4, h5, h6{
     left: 0;
     bottom: -10px;
     transition: 0.3s;
+   
     }
   
 .my_nav li a:hover:after{
@@ -103,37 +116,25 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 150px;
     letter-spacing: 0.1em;
 }
-  
   .hellow-word i {
     font-size: 7px;
     margin: 0 5px;
     opacity: 0.25;
     vertical-align: middle;
 }
-  
-  .type_writer {
-    margin-top: 50px;
-}
-  
-  .type_writer h1 {
-    color: #ffffff;
-    font-size: 50px;
-}
-  
-  .type_writer a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
+  .type_writter a {
+    color: #ffffff;  
+    font-weight: 700;
 }
   
 .mt_20{
     margin-top: -20px;
 }
-
 .mt_100{
-    margin-top: 140px;
-}
+    /* margin-top: 160px; */
+    margin-top: 25vh;
 
+}
 
   .banner_part {
     background: rgba(255, 255, 255, 0.05);
@@ -243,6 +244,22 @@ h1, h2, h3, h4, h5, h6{
 .heading_color{
     color:#1e459c;
 }
+
+
+.product_text_style{
+    font-weight: 700;
+    color: #51a4da ;
+}
+
+.card_shadow{
+    box-shadow: 1px 1px 7px 3px #373ae630;
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 /* =============old home page============= */

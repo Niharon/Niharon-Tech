@@ -5,6 +5,7 @@
   }
 }
 
+/* =========vdo thumbnail========= */
 @media screen and (max-width: 700px) and (min-width: 500px) {
   .vdo_size iframe{
     padding: 30px !important;
@@ -19,3 +20,19 @@
     height: 16rem !important;
   }
 }
+
+
+/* =========navbar responsive======= */
+@media screen and (max-width: 1155px) and (min-width: 992px){
+  .my_nav li a {
+    
+    font-size: 16px !important;
+    padding: 10px 8px !important;
+    /* position: relative; */
+    /* transition: all linear 0.6s; */
+    /* overflow: hidden; */
+}
+}
+
+
+
