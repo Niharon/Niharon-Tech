@@ -12,7 +12,7 @@ function abc(x) {
               <a href="#" class=""><img width="150" src="../images/logo/Niharon Logo Renew-02.png" alt="no img"/></a>
 
               <button class="navbar-toggler"type="button"data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <img width="25" src="images/svg icons/menu-2 1.svg" alt="" />
+                  <span class="navbar-toggler-icon"></span>
               </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">

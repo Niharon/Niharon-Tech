@@ -28,14 +28,11 @@ body{
   padding-bottom: 130px;
   /*   min-height: 750px;*/
   overflow: hidden;
-  height: 121vh;
+  height: 100vh;
+  /* height: auto; */
 }
 
-.ext_cng {
-  height: 60vh !important;
-}
-
-#header_part::before {
+/* #header_part::before {
   content: "";
   height: 150px;
   position: absolute;
@@ -55,7 +52,7 @@ body{
   bottom: -113px;
   width: 80%;
   right: -50px;
-}
+} */
 
 /*
   .bg_overlay {
@@ -95,7 +92,7 @@ body{
   height: 3px;
   width: 0%;
   left: 0;
-  bottom: -10px;
+  bottom: -1px;
   transition: 0.3s;
 }
 
@@ -140,6 +137,7 @@ body{
 .mt_100 {
   /* margin-top: 160px; */
   margin-top: 25vh;
+  /* margin-top: auto; */
 }
 
 .banner_part {
@@ -188,12 +186,12 @@ body{
 
 .bg_wht_img {
   height: 170px;
-  width: 170px;
-  background: #ffffff;
+  width: 150px;
+  /* background: #ffffff; */
   border-radius: 100px;
-  margin-top: -100px;
-  position: absolute;
-  margin-left: -80px;
+  margin-top: 20px;
+  /* position: absolute;
+  margin-left: -80px; */
 }
 
 .about-img {
@@ -202,13 +200,13 @@ body{
 .about-img img {
   width: 150px;
   border: 8px solid #87d5c6;
-  margin-top: 10px;
+  /* margin-top: 10px;
   position: absolute;
-  margin-left: 10px;
+  margin-left: 10px; */
 }
 
 .mt_60 {
-  margin-top: 60px;
+  /* margin-top: 160px; */
 }
 .about_txt h2 {
   font-weight: 700;
