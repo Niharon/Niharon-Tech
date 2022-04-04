@@ -6,7 +6,7 @@ HeaderNavbar.innerHTML = `
           <div class="col-lg-12 d-flex justify-content-center align-items-center">
             <nav class="navbar navbar-expand-lg navbar-dark nav_float">
               <a href="#" class=""
-                ><img width="150" src="../Niharon-Tech/images/logo/Niharon Logo Renew-02.png" alt="no img"
+                ><img width="150" src="images/logo/Niharon Logo Renew-02.png" alt="no img"
               /></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

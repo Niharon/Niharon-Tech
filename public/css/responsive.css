@@ -1,39 +1,45 @@
 @media screen and (max-width: 700px) and (min-width: 300px) {
-  .respos_font{
+  .respos_font {
     font-weight: 600;
     letter-spacing: -1px;
+  }
 }
 
-}
-
+/* =========vdo thumbnail========= */
 @media screen and (max-width: 700px) and (min-width: 500px) {
-  .vdo_size iframe{
+  .vdo_size iframe {
     padding: 30px !important;
     width: 35rem !important;
     height: 22rem !important;
   }
 }
 @media screen and (max-width: 500px) and (min-width: 340px) {
-  .vdo_size iframe{
+  .vdo_size iframe {
     padding: 30px !important;
     width: 25rem !important;
     height: 16rem !important;
   }
 }
 
-
-
-
-
-/* @media screen and (max-width: 520px) and (min-width: 300px) {
-  .embed-responsive{
-    padding: 20px;
-   max-height: 250 !important;
-   max-width: 300 !important;
+/* =========navbar responsive======= */
+@media screen and (max-width: 1155px) and (min-width: 992px) {
+  .my_nav li a {
+    font-size: 16px !important;
+    padding: 10px 8px !important;
+    /* position: relative; */
+    /* transition: all linear 0.6s; */
+    /* overflow: hidden; */
+  }
 }
+
+/* =========all header page responsive========= */
+
+/* @media screen and (max-width: 1244px) and (min-width: 300px) {
+  #header_part {
+    height: 75vh !important;
+  }
+
+  .device_resp {
+    height: 60px !important;
+  }
 } */
-
-
-
-
-
