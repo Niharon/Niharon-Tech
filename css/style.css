@@ -1,229 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+/*
+body{
+    background: #c8e2f3;
+} */
+
+#header_part {
+  width: 100%;
+  background: url(../images/carousol/pexels-anna-overlay.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 130px;
+  /*   min-height: 750px;*/
+  overflow: hidden;
+  height: 100vh;
+  /* height: auto; */
+}
+
+/* #header_part::before {
+  content: "";
+  height: 150px;
+  position: absolute;
+  background: #ffffff;
+  transform: rotate(10deg);
+  bottom: -113px;
+  width: 80%;
+  left: -50px;
+}
+
+#header_part::after {
+  content: "";
+  height: 150px;
+  position: absolute;
+  background: #ffffff;
+  transform: rotate(-10deg);
+  bottom: -113px;
+  width: 80%;
+  right: -50px;
+} */
+
+/*
+  .bg_overlay {
+
+      position: absolute;
+      width: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+  }
+  */
+
+.my_nav {
+  margin-left: auto;
+  /* text-align: right; */
+}
+
+.my_nav li {
+}
+
+.my_nav li a {
+  color: #f3f3f3 !important;
+  padding: 10px 15px;
+  position: relative;
+  font-size: 15px;
+  float: right;
+  /* text-align: center; */
+  /* transition: all linear 0.6s; */
+  /* overflow: hidden; */
+}
+
+.my_nav li a:after {
+  content: "";
+  position: absolute;
+  background-color: #51a4da;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s;
+}
+
+.my_nav li a:hover:after {
+  width: 100%;
+}
+
+.nav-icn i {
+  font-size: 5px;
+}
+
+.hellow-word {
+  background: rgba(255, 255, 255, 0.05);
+  color: #1ebba3;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 150px;
+  letter-spacing: 0.1em;
+}
+.hellow-word i {
+  font-size: 7px;
+  margin: 0 5px;
+  opacity: 0.25;
+  vertical-align: middle;
+}
+.type_writter a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.type_writter h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.mt_20 {
+  margin-top: -20px;
+}
+.mt_100 {
+  /* margin-top: 160px; */
+  margin-top: 25vh;
+  /* margin-top: auto; */
+}
+
+.banner_part {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.text-center {
+  margin: 7px 0;
+}
+
+.social_icon {
+  margin-top: 35px;
+}
+
+.social_icon li {
+}
+
+.social_icon li a {
+  color: #dddddd;
+  opacity: 0.7;
+}
+
+.social_icon li a i {
+}
+
+.line {
+  height: 50px;
+  width: 1px;
+  background: #dddddd;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+/*===========about_part================*/
+
+#about_part {
+  width: 100%;
+  /* padding-bottom: 30px; */
+}
+
+.bg_wht_img {
+  height: 170px;
+  width: 150px;
+  /* background: #ffffff; */
+  border-radius: 100px;
+  margin-top: 20px;
+  /* position: absolute;
+  margin-left: -80px; */
+}
+
+.about-img {
+}
+
+.about-img img {
+  width: 150px;
+  border: 8px solid #87d5c6;
+  /* margin-top: 10px;
+  position: absolute;
+  margin-left: 10px; */
+}
+
+.mt_60 {
+  /* margin-top: 160px; */
+}
+.about_txt h2 {
+  font-weight: 700;
+  /* margin-top: 20px; */
+  color: #1e459c;
+}
+
+.about_txt h5 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.about_txt p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.about_txt button {
+  margin: 0 5px 10px 5px;
+  color: #000000;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  background: rgba(49, 184, 208, 0.09);
+}
+
+.about_txt button:hover {
+  margin: 0 5px 10px 5px;
+  color: #ffffff;
+  font-size: 14px;
+  border: 1px solid #31b8d0;
+  background: #31b8d0;
+}
+
+/* ==============our_products_section============== */
+
+.heading_color {
+  color: #1e459c;
+}
+
+.product_text_style {
+  font-weight: 700;
+  color: #51a4da;
+}
+
+.card_shadow {
+  box-shadow: 1px 1px 7px 3px #373ae630;
+  cursor: pointer;
+}
+
+/* =============old home page============= */
 /* LAYOUT  */
-header{
-    position: -webkit-sticky !important;
-    position: sticky !important;
+header {
+  position: -webkit-sticky !important;
+  position: sticky !important;
 }
 
 /* LAYOUT  */
-
 
 /*--------------------------------------- GLOBAL DEC  */
-.fas{
-    font-size: 30px;
+.fas {
+  font-size: 30px;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.sectionwidth{
-    width : 75%
+.sectionwidth {
+  width: 75%;
 }
-@media screen and (max-width : 686px) {
-    .sectionwidth{
-        width : 90%
-    }
+@media screen and (max-width: 686px) {
+  .sectionwidth {
+    width: 90%;
+  }
 }
 
 /* without white bg  */
-.zoom{
-    transition: transform .3s;
+.zoom {
+  transition: transform 0.3s;
 }
 .zoom:hover {
-    
-    background-color: white;
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5);
-    transform: scale(1.1); 
+  background-color: white;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1);
 }
-
 
 /* without bg  */
-.zoom1{
-    transition: transform .3s;
+.zoom1 {
+  transition: transform 0.3s;
 }
 .zoom1:hover {
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.1); 
-    
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1);
 }
 
-.clr{
-    transition: transform .3s;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+.clr {
+  transition: transform 0.3s;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
-.clr:hover{
-    color: black;
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.1); 
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
+.clr:hover {
+  color: black;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1);
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
 }
 
 /*--------------------------------------- GLOBAL DEC  END */
 
-/*---------------------------------------  all btns  */
+/*---------------------------------------  all btn  */
 
+.btn {
+  border-radius: 50px;
+  background-color: #51a4da;
+  color: white;
+  font-weight: 600;
+}
+.btn:hover {
+  border-color: #20409a;
+  color: white;
+  background-color: #20409a;
+}
+/*---------------------------------------  all btn  */
 
-.padding_btn{
-   padding: 0 5px !important;
+/* -----rony er button css code----- */
+
+.padding_btn {
+  padding: 0 5px !important;
 }
 
 .btn_style {
-	border-radius: 50px;
-	background-color: #51A4DA;
-	/* background: linear-gradient( 360deg, #071728 56%, #114c6b 58% ) !important; */
-	color: white;
-	font-weight: 600;
-	width: 140px;
-    transition: all linear 0.4s;
-    /* padding: 10px 20px; */
+  border-radius: 50px;
+  background-color: #51a4da;
+  color: white;
+  font-weight: 600;
+  width: 140px;
+  transition: all linear 0.4s;
+  border: 2px solid #51a4da;
+  /* padding: 10px 20px; */
 }
 
-.btn_style:hover{
-    background: #1d74ad;
-    color: #f0eaea;
-    transition: all linear 0.4s;
+.btn_style:hover {
+  background: #1d74ad;
+  border: 2px solid #1d74ad !important;
+  color: #f0eaea;
+  transition: all linear 0.4s;
 }
 
 .btn_style2 {
-	border: 2px solid #51A4DA ;
-    border-radius: 50px;
-    font-weight: 600;
-    transition: all linear 0.4s;
+  border: 2px solid #51a4da;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all linear 0.4s;
+  background-color: transparent;
+  padding: 0.375rem 0.75rem;
 }
+
 .btn_style2:hover {
-	background:#51A4DA ;
-    border-radius: 50px;
-    color: #fff;
-    font-weight: 600;
-    transition: all linear 0.4s;
+  background: #51a4da;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  transition: all linear 0.4s;
 }
 
+/* youtube vdo responsive */
 
-
-
-
-/*---------------------------------------  all btns  */
-
-
-
+.vdo_size iframe {
+  padding: 60px;
+  width: 50rem;
+  height: 30rem;
+}
 
 /*--------------------------------------- nav bar & header section START */
-header{
-    width: 100%;
+header {
+  width: 100%;
 }
-nav{
-    width: 85%;
+nav {
+  width: 80%;
 }
-.nav-link{
-    font-size: 16px;
-    margin: 0 5px; 
+.nav-link {
+  font-size: 16px;
+  margin: 0 5px;
 }
-.page-active{
-    color: #07194b !important; 
+.page-active {
+  color: #07194b !important;
 }
-.activePage{
-    color: #07194b;
-}
-
-#conatct-us-btn-img{
-    width: 18%;
-}
-.nav-link{
-    color: #51A4DA !important;
-    font-weight: 600;
-}
-.nav-link:hover{
-    color: #07194b !important;
+.activePage {
+  color: #07194b;
 }
 
-@media screen and (max-width : 686px) {
-    nav{
-        width: 90%;
-    }
-    #conatct-us-btn-img{
-        width: 10%;
-    }
+#conatct-us-btn-img {
+  width: 18%;
 }
-.logo-img{
-    width: 5%;
-    
+.nav-link {
+  color: #51a4da !important;
+  font-weight: 600;
 }
-.nav-text-size{
-    font-size: 14px;;
+/* .nav-link:hover{
+    color: #ffee02 !important;
+    font-size: 18px;
+    transition: all 400ms ease-in-out;
+} */
+
+@media screen and (max-width: 686px) {
+  nav {
+    width: 90%;
+  }
+  #conatct-us-btn-img {
+    width: 10%;
+  }
+}
+.logo-img {
+  width: 5%;
+}
+.nav-text-size {
+  font-size: 14px;
+}
+
+.font_style {
+  /* font-family: Merienda; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.card_hgt {
+  height: 60px;
 }
 
 /* ---------------------------------------nav bar & header section END */
 
-/*--------------------- book card design--------------------- */
-
-
-.font_style{
-    /* font-family: Merienda; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-}
-
-.card_hgt{
-    height: 60px;
-}
-
-
-
-
-/* ---------------------youtube video design--------------------- */
-
-.vdo_size iframe{
-  padding: 60px;
-  width: 50rem;
-  height: 30rem;
-
-}
-
 /*--------------------------------------- CAROUsOL SECTION  */
-#item-1{
-    background-image: url('../images/carousol/tech-cruve.jpg');
+#item-1 {
+  background-image: url("../images/carousol/tech-cruve.jpg");
 }
-#item-2{
-    background-image: url('../images/carousol/dfg.jpg');
+#item-2 {
+  background-image: url("../images/carousol/dfg.jpg");
 }
-#item-3{
-    background-image: url('../images/carousol/womenintech.jpg');
+#item-3 {
+  background-image: url("../images/carousol/womenintech.jpg");
 }
-
-.carousel-item{
-    height: 75vh;
-    background-size: cover;
-    background-position: top;
+.carousel-item {
+  height: 75vh;
+  background-size: cover;
+  background-position: top;
 }
-.car-row-width{
-    width: 70%;
+.car-row-width {
+  width: 70%;
 }
-@media screen and (max-width : 686px) {
-    .carousel-item{
-        height: 35vh;
-        
-    }
-    .animated-title{
-        display: none;
-    }
-    
+@media screen and (max-width: 686px) {
+  .carousel-item {
+    height: 35vh;
+  }
+  .animated-title {
+    display: none;
+  }
 }
-
 
 /* car animation  */
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
 @keyframes showTopText {
-  0% { transform: translate3d(0, 100%, 0); }
-  40%, 60% { transform: translate3d(0, 50%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(0, 50%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
 }
 @keyframes showBottomText {
-  0% { transform: translate3d(0, -100%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
 }
 .animated-title {
   color: rgb(255, 255, 255);
@@ -249,7 +514,8 @@ nav{
 }
 .animated-title > div div span {
   display: block;
-  padding: 0; margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .animated-title > div.text-top {
   border-bottom: 1vmin solid rgb(255, 255, 255);
@@ -266,12 +532,11 @@ nav{
   color: #ffffff;
 }
 .animated-title > div.text-bottom {
-    
   bottom: 0;
 }
 .animated-title > div.text-bottom div {
   animation: showBottomText 0.1s;
-  animation-delay: 1.0s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -100%);
@@ -280,61 +545,46 @@ nav{
 
 /*--------------------------------------- CAROUsOL SECTION  */
 
-
-
-
-
-
-
 /*--------------------------------------- products section  */
-.ccc{
-    height: 170px;
-    width: 100%;
+.ccc {
+  height: 170px;
+  width: 100%;
 }
 
-.bg-card-prop{
-    background-size: cover;
-    background-position: top;
+.bg-card-prop {
+  background-size: cover;
+  background-position: top;
 }
-
-#c-1{
-    background-image: url('../images/covers/app\ banner\ ai\ low.jpg');
+#c-1 {
+  background-image: url("../images/covers/app\ banner\ ai\ low.jpg");
 }
-#c-2{
-    background-image: url('../images/covers/appposter.png');
+#c-2 {
+  background-image: url("../images/covers/appposter.png");
 }
-#c-3{
-    background-image: url('../images/covers/OdolBodol\ Release.jpg');
+#c-3 {
+  background-image: url("../images/covers/OdolBodol\ Release.jpg");
 }
-.pp-rounded{
-    border-radius: 7px;
+.pp-rounded {
+  border-radius: 7px;
 }
 /*--------------------------------------- products section END  */
 
-
-
-
-
-
-
-
-
 /* -------------------------------------------------service section  */
-.scc{
-    height: 210px;
-    width: 100%;
+.scc {
+  height: 210px;
+  width: 100%;
 }
-#s-1{
-    background-image: url('../images/covers/web-dev.jpg');
+#s-1 {
+  background-image: url("../images/covers/web-dev.jpg");
 }
-#s-2{
-    background-image: url('../images/covers/sargra.jpg');
+#s-2 {
+  background-image: url("../images/covers/sargra.jpg");
 }
-#s-3{
-    background-image: url('../images/covers/saas-1.jpg');
+#s-3 {
+  background-image: url("../images/covers/saas-1.jpg");
 }
-#s-4{
-    background-image: url('../images/covers/eduNtrain.jpg');
+#s-4 {
+  background-image: url("../images/covers/eduNtrain.jpg");
 }
 
 /* #s-1:hover{
@@ -352,76 +602,53 @@ nav{
 
 /* -------------------------------------------------service section  */
 
-
-
-
-
-
 /*----------------------------------------------- indstries we server  */
-.iws-prop{
-    background-color: #51A4DA;
-    height: 250px;
-    width: 100%;
+.iws-prop {
+  background-color: #51a4da;
+  height: 250px;
+  width: 100%;
 }
-.iws-clild-prop{
-    width: 65%;
+.iws-clild-prop {
+  width: 65%;
 }
 
 /*----------------------------------------------- indstries we server  */
 
-
-
 /*--------------------------------------------------------------- blog  */
-.sectionwidthBlog{
-    width: 80%;
+.sectionwidthBlog {
+  width: 80%;
 }
-.bcc{
-    height: 170px;
-    width: 100%;
+.bcc {
+  height: 170px;
+  width: 100%;
 }
-
-.bg-card-prop-blog{
-    background-size: cover;
-    background-position: top;
+.bg-card-prop-blog {
+  background-size: cover;
+  background-position: top;
 }
-
-#blog-1{
-    background-image: url('../images/dev/ngo.jpg');
+#blog-1 {
+  background-image: url("../images/dev/ngo.jpg");
 }
-#blog-3{
-    background-image: url('../images/dev/Ecommerce-Business-Ideas-1.jpg');
+#blog-3 {
+  background-image: url("../images/dev/Ecommerce-Business-Ideas-1.jpg");
 }
-#blog-2{
-    background-image: url('../images/dev/macOS_Dark_Mode.png');
+#blog-2 {
+  background-image: url("../images/dev/macOS_Dark_Mode.png");
 }
-.pp-rounded{
-    border-radius: 7px;
+.pp-rounded {
+  border-radius: 7px;
 }
 
 /*--------------------------------------------------------------- blog  */
 
-
-
-
-
 /*----------------------------------------------- be a partner section  */
-@media screen and (max-width : 686px) {
-    
+@media screen and (max-width: 686px) {
 }
 /*----------------------------------------------- be a partner section  */
-
-
-
-
-
-
-
-
-
 
 /*--------------------------------------- industry_insight_section */
 
-/* 
+/*
 .iis-btn{
     border-color: #51A4DA;
     border-radius: 60px !important;
@@ -467,11 +694,6 @@ nav{
     background-image:url(../images/iis/12-Digital-Banking-Challenges-and-Opportunities-For-the-Banking-Industry-1.webp);
 } */
 
-
-
-
-
-
 /*--------------------------------------- office details  */
 /* .of-custom-width{
     width: 93%;
@@ -481,121 +703,90 @@ nav{
     height: 550px;
 }
 .of-ccc{
-    
+
     width: 100%;
 }
 #of-cloud-office{
-   
+
     background-image:url(../images/of/pexels-djordje-petrovic-2102416.jpg);
     height: 550px;
 }
 #of-dhk-office{
-    
+
     background-image:url(../images/of/pexels-simon-reza-8957485.jpg);
     height: 275px;
 }
 #of-raj-office{
-    
+
     background-image:url(../images/of/rajshahi_road_side_tree.jpg);
     height: 275px;
 }*/
 
-
 /* -----------------------------------------------------------------cnt us  */
-.cnt-us-card-h{
-    height: 300px;
+.cnt-us-card-h {
+  height: 300px;
 }
 /* -----------------------------------------------------------------cnt us  */
 
-
-
-
-
-
 /* ---------------------------------------footer section  */
-footer{
-    padding-top: 60px;
-    padding-bottom: 70px;
+footer {
+  padding-top: 60px;
+  padding-bottom: 70px;
 }
 .footerWeight {
-    width: 85%;
-    /* font-size: 11px; */
+  width: 85%;
+  /* font-size: 11px; */
 }
-.fa-angle-up{
-    font-size: 15px;
-    color: black;
+.fa-angle-up {
+  font-size: 15px;
+  color: black;
 }
 
-@media screen and (max-width : 686px) {
-    .content{
-        margin: 0px 20px;
-    }
+@media screen and (max-width: 686px) {
+  .content {
+    margin: 0px 20px;
+  }
 }
 /* ---------------------------------------footer section  */
-
-
-
-
-
-
 
 /*/////////////////////////////////////////////////
 /////////////// OUR SERVICE PAGE //////////////////
 /////////////////////////////////////////////////*/
 
 /* --------------------------------------our services car  */
-#our-servces-car{
-    background-image: url(../images/covers/sargra.jpg);
-    height: 400px;
-    
-}
+/* #our-servces-car {
+  background-image: url(../images/covers/sargra.jpg);
+  height: 400px;
+} */
 /* --------------------------------------our services car  */
 
-.OS-services-card-prop{
-    border-radius: 10px;
-    height: 300px;
+.OS-services-card-prop {
+  border-radius: 10px;
+  height: 300px;
 }
 
 /* #OS-services-1{
 } */
 
-
-
-
-
 /*///////////////////////////////////////////////////////////////////
 /////////////// OUR SERVICE PAGE SOFTWARE DEVELOPMENT ///////////////
 ///////////////////////////////////////////////////////////////////*/
 
-#our-servces-soft-car{
-    background-image: url(../images/covers/SOFTWARE-ENNGG.jpg);
-    height: 400px;
-    
+#our-servces-soft-car {
+  background-image: url(../images/covers/SOFTWARE-ENNGG.jpg);
+  height: 400px;
 }
-#our-servces-web-car{
-    background-image: url(../images/covers/web-dev.jpg);
-    height: 400px;
-    
+#our-servces-web-car {
+  background-image: url(../images/covers/web-dev.jpg);
+  height: 400px;
 }
-#our-servces-edu-car{
-    background-image: url(../images/covers/eduNtrain.jpg);
-    height: 400px;
-    
+#our-servces-edu-car {
+  background-image: url(../images/covers/eduNtrain.jpg);
+  height: 400px;
 }
-#our-servces-saas-car{
-    background-image: url(../images/covers/saas-1.jpg);
-    height: 400px;
-    
+#our-servces-saas-car {
+  background-image: url(../images/covers/saas-1.jpg);
+  height: 400px;
 }
 
-
-
-
-
-
-
-/*///////////////////////////////////////////////////////////////////
-//////////////////////////// ABOUT US PAGE //////////////////////////
-///////////////////////////////////////////////////////////////////*/
-
-
+/*////////////////////////////// ABOUT US PAGE ////////////////////////////*/
