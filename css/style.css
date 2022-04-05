@@ -27,7 +27,7 @@ body{
   position: relative;
   padding-bottom: 130px;
   /*   min-height: 750px;*/
-  overflow: hidden;
+  overflow: hidden !important;
   height: 100vh;
   /* height: auto; */
 }
