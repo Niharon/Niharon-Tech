@@ -269,8 +269,24 @@
       </section>
       <!-- section industries er serve here  -->
 
-      <!-- section Be our Partner here  -->
+      <section id="be_partner ">
+        <div class="row m-0">
+          <div class="col-lg-6 text-center mb-5">
+            <h2 class="">Become Our Partner</h2>
+            <p class="">
+              With the help of our partners, we can share our expertise and resources around the world. And thus we are
+              expanding as the home of top IT professionals So contact us to see how you can join our global family!
+            </p>
+            <!-- <a class="btn btn-info align-items-center" href="#">Why & How</a> -->
+            <button type="button" class="btn btn-info">Why & How?</button>
+          </div>
+          <div class="col-lg-6 text-center mb-5">
+            <img width="300" class="" src="../Niharon-Tech/images/covers/beOrPartner.png" alt="" />
+          </div>
+        </div>
+      </section>
 
+      <!-- old be our partner -->
       <!-- <section
         id="Be-our-Partner"
         class="w-sm-100 sectionwidth my-5 pb-5 d-flex flex-column justify-content-center align-items-center content"
@@ -619,5 +635,10 @@
     <script src="js/main.js"></script>
     <script src="ness.js"></script>
     <script src="js/index.js"></script>
+    <script>
+      $(window).scroll(function () {
+        $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
+      });
+    </script>
   </body>
 </html>
