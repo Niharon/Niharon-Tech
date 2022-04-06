@@ -40,7 +40,7 @@ body{
   background-size: cover;
   position: relative;
   padding-bottom: 130px;
-  /*   min-height: 750px;*/
+    min-height: 560px;
   overflow: hidden !important;
   height: 101vh;
   background-attachment: fixed;
