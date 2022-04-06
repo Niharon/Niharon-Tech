@@ -54,12 +54,14 @@ function abc(x) {
 
         <div class="row justify-content-center mt_20">
           <div class="col-auto">
-            <div class="banner_part">
-              <p class="text-center px-3">
+            <div class="banner_part text-center">
+              <p class=" px-3">
                 We deliver applied research innovation, technology development and solutions for customers large and
                 small across the world.
-              </p>
+              </p><br><br>
+              <a href="#" class="mt-3 hdr_btn_mdl">Explore Now</a>
             </div>
+
           </div>
         </div>
       </div>
