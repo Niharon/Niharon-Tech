@@ -50,7 +50,7 @@ HeaderNavbar.innerHTML = `
                   href=""
                   class="typewrite"
                   data-period="2000"
-                  data-type='[ "Niharon Techonologies", "Software Development", "Web Application" ]'
+                  data-type='[ "Niharon Techonologies", "Software Development", "Web Development","Class Manager", "Shop Manager","OdolBodol" ]'
                 >
                   <span class="wrap"></span
                 ></a>

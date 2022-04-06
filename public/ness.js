@@ -4,7 +4,7 @@ HeaderNavbar.innerHTML = `
 <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center align-items-center">
-            <nav class="navbar navbar-expand-lg navbar-dark nav_float">
+            <nav class="navbar navbar-expand-lg navbar-dark nav_float fixed-top bgcolor">
               <a href="#" class=""
                 ><img width="150" src="images/logo/Niharon Logo Renew-02.png" alt="no img"
               /></a>
@@ -50,7 +50,7 @@ HeaderNavbar.innerHTML = `
                   href=""
                   class="typewrite"
                   data-period="2000"
-                  data-type='[ "Niharon Techonologies", "Software Development", "Web Application" ]'
+                  data-type='[ "Niharon Techonologies", "Software Development", "Web Development","Class Manager", "Shop Manager","OdolBodol" ]'
                 >
                   <span class="wrap"></span
                 ></a>
@@ -75,27 +75,27 @@ HeaderNavbar.innerHTML = `
             <ul class="nav social_icon">
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-facebook-f fa-lg"></i>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram fa-lg"></i>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-linkedin fa-lg"></i>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fab fa-pinterest"></i>
+                  <i class="fab fa-github fa-lg"></i>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter fa-lg"></i>
                 </a>
               </li>
             </ul>
