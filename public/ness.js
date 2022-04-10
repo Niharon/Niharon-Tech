@@ -22,7 +22,7 @@ HeaderNavbar.innerHTML = `
                     <a class="nav-link" href="html/products.html">Products</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="html/our-services.html">Service</a>
+                    <a class="nav-link" href="html/our-services.html">Services</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="html/blog.html">Blog</a>

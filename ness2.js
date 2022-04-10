@@ -1,6 +1,6 @@
 // console.log("connect");
 const HeaderNavbar = document.getElementById("header_part");
-const texts = ["Product", "Service", "Blog", "About", "Contact Us"];
+const texts = ["Product", "Services", "Blog", "About", "Contact Us"];
 function abc(x) {
   console.log("connect");
   HeaderNavbar.innerHTML = `
@@ -22,7 +22,7 @@ function abc(x) {
                     <a class="nav-link" href="products.html">Products</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="our-services.html">Service</a>
+                    <a class="nav-link" href="our-services.html">Services</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog</a>
