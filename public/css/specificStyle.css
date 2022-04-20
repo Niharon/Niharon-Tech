@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Karla", Sans-serif;
+}
+img {
+  width: 100%;
+  /* max-width: 100%; */
+}
+.container {
+  max-width: 1200px;
+  overflow: hidden;
+  /*    margin: 0 auto;*/
+}
+
+/* ===========mobile_app_dv========= */
+
+#mobile_app_dv {
+  /* background: #89b808; */
+  /* width: 100%; */
+  min-height: 120vh;
+
+  background-image: url(../images/sargra.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.opacity_box {
+  opacity: 0.9;
+}
+
+.future_space h5 {
+  letter-spacing: 7px;
+  font-size: bold;
+  font-weight: bold;
+}
+.mbl_app_dev h1 {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 60px;
+}
+
+.mbl_app_txt p {
+  line-height: 37px;
+  font-size: 17px;
+  color: #8d8d8d;
+  font-weight: 500;
+}
+.butn_dign .explore {
+  border: 2px solid #767777;
+  /* background-color: coral; */
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #414242;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.testimonial {
+  color: #414242;
+  text-decoration: none;
+  margin-left: 90px;
+}
+
+/* ==========mbl_text=========== */
+
+/* =======offer_service======= */
+
+.bottom_line {
+  height: 2px;
+  width: 100px;
+  background: #6ec1e4;
+  margin-left: 16px;
+}
+
+.offer_srvs_txt p {
+  text-transform: uppercase;
+}
+.offer_srvs_txt h1 {
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: 5px;
+}
+.bottom_line {
+  height: 2px;
+  width: 100px;
+  background: #6ec1e4;
+  margin-left: 16px;
+}
+/* =====offer_service // right side===== */
+.list_items ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.list_items ul li {
+  line-height: 40px;
+}
+
+.list_items ul li p {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  /* font-weight: bold; */
+  margin-bottom: 6px;
+  font-weight: 100px;
+}
+.list_items ul li p i {
+  padding-right: 20px;
+  color: #6ec1e4;
+  font-size: 22px;
+}
