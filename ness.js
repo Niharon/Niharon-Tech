@@ -74,7 +74,7 @@ HeaderNavbar.innerHTML = `
           <div class="col-auto">
             <ul class="nav social_icon">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="https://www.facebook.com/niharontechnologies" class="nav-link">
                   <i class="fab fa-facebook-f fa-lg"></i>
                 </a>
               </li>
@@ -89,7 +89,7 @@ HeaderNavbar.innerHTML = `
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="https://github.com/Niharon" class="nav-link">
                   <i class="fab fa-github fa-lg"></i>
                 </a>
               </li>
