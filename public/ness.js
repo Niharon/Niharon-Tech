@@ -74,27 +74,27 @@ HeaderNavbar.innerHTML = `
           <div class="col-auto">
             <ul class="nav social_icon">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a target="blank" href="https://www.facebook.com/niharontechnologies" class="nav-link">
                   <i class="fab fa-facebook-f fa-lg"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a target="blank" href="https://www.instagram.com/niharontechnologies" class="nav-link">
                   <i class="fab fa-instagram fa-lg"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a target="blank" href="https://www.linkedin.com/company/niharon-technologies" class="nav-link">
                   <i class="fab fa-linkedin fa-lg"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a target="blank" href="https://github.com/Niharon" class="nav-link">
                   <i class="fab fa-github fa-lg"></i>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a target="blank" href="#" class="nav-link">
                   <i class="fab fa-twitter fa-lg"></i>
                 </a>
               </li>
