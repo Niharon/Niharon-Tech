@@ -8,7 +8,7 @@ function sendEmail() {
 
 
 
-    emailjs.send('service_c5etm8j', 'service_c5etm8j', temParamsx)
+    emailjs.send('service_c5etm8j', 'template_heqwhaq', temParamsx, 'c21Fne0wFGq-QfrhA')
         .then(function () {
             swal("Done!", "Message Sent Successfully!", "success");
             document.getElementById("cntForm").reset();
