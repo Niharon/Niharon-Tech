@@ -27,7 +27,7 @@ h6 {
 
 #header_part {
   width: 100%;
-  background: url(../images/carousol/pexels-anna-overlay.png);
+  background: url(../images/carousol/pexels-anna-overlay.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -537,7 +537,7 @@ nav {
 
 .bg-card-prop {
   background-size: cover;
-  background-position: top;
+  background-position: top !important;
 }
 #c-1 {
   background-image: url("../images/covers/app\ banner\ ai\ low.jpg");
@@ -548,6 +548,22 @@ nav {
 #c-3 {
   background-image: url("../images/covers/OdolBodol\ Release.jpg");
 }
+#c-7 {
+  background: url("../images/projects/Logo-new.png");
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+#c-8 {
+  background: url("../images/projects/seb-kay.webp");
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+#c-9 {
+  background: url("../images/projects/Shop_pharmacy.png");
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+
 .pp-rounded {
   border-radius: 7px;
 }
