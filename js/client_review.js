@@ -2,7 +2,6 @@ jQuery(document).ready(function($) {
         		"use strict";
         		//  TESTIMONIALS CAROUSEL HOOK
   $('#customers-testimonials').owlCarousel({
-                navigation: true, // Show next and prev buttons
 		            loop: true,
 		            center: true,
 		            items: 3,
