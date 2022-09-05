@@ -19,7 +19,7 @@ HeaderNavbar.innerHTML = `
                     <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="html/products.html">Products</a>
+                    <a class="nav-link" href="html/products.html">Projects</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="html/our-services.html">Services</a>
