@@ -31,9 +31,8 @@ body {
   /* background: rgba(30, 30, 30); */
 }
 .testim {
-  margin-top: 250px;
   width: 100%;
-  position: relative;
+  /* position: absolute; */
   /* top: 50%; */
   -webkit-transform: translatey(-50%);
   -moz-transform: translatey(-15%);
@@ -43,7 +42,7 @@ body {
 }
 
 .testim .wrap {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   max-width: 1020px;
   padding: 40px 20px;
