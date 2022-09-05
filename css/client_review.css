@@ -1,4 +1,4 @@
-@import url(//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css);
+/* @import url(//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css); */
 
 /* *,
 *:after,
@@ -31,7 +31,7 @@ body {
   /* background: rgba(30, 30, 30); */
 }
 .testim {
-  margin-top: 150px;
+  margin-top: 200px;
   width: 100%;
   /* position: absolute; */
   /* top: 50%; */
@@ -43,7 +43,7 @@ body {
 }
 
 .testim .wrap {
-  /* position: relative; */
+  position: relative;
   width: 100%;
   max-width: 1020px;
   padding: 40px 20px;
