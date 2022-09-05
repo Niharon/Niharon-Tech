@@ -7,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Niharon Technologies</title>
     <link rel="icon" href="../images/logo/Niharon Logo Renew.png" />
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
+    <!-- Emailjs link  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
-    (function(){
-        emailjs.init("c21Fne0wFGq-QfrhA");
-    })();
+        (function () {
+            emailjs.init("user_tddYoZg4Dc7m2gTSX0C0C");
+        })();
     </script>
 
     <!-- bootstrap link  -->
@@ -143,7 +142,7 @@
                                         <textarea type="text" class="form-control" id="msg" rows="4"> </textarea>
                                     </div>
 
-                                    <div"
+                                    <div onclick="sweetallert()"
                                         class="col-12 d-flex justify-content-center align-items-center">
                                         <button type="button" data-toggle="modal" data-target=".bd-example-modal-sm"
                                             class="btn px-5" id="cnt-submit-btn">Submit</button>
