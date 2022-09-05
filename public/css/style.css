@@ -27,7 +27,7 @@ h6 {
 
 #header_part {
   width: 100%;
-  background: url(../images/carousol/pexels-anna-overlay.png);
+  background: url(../images/carousol/pexels-anna-overlay.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -537,7 +537,7 @@ nav {
 
 .bg-card-prop {
   background-size: cover;
-  background-position: top;
+  background-position: top !important;
 }
 #c-1 {
   background-image: url("../images/covers/app\ banner\ ai\ low.jpg");
@@ -548,6 +548,32 @@ nav {
 #c-3 {
   background-image: url("../images/covers/OdolBodol\ Release.jpg");
 }
+#c-4 {
+  background-image: url("../images/projects/nihaorn_quran\ copy.jpg");
+}
+#c-5 {
+  background-image: url("../images/projects/OpenCVcalculator.jpg");
+}
+#c-6 {
+  background-image: url("../images/projects/flutter_open.png");
+}
+
+#c-7 {
+  background: url("../images/projects/ahoronssproject.jpg");
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+#c-8 {
+  background: url("../images/projects/ahoronssproject2.jpg");
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+#c-9 {
+  background: url("../images/projects/earlylearn.jpg");
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+
 .pp-rounded {
   border-radius: 7px;
 }
@@ -708,6 +734,12 @@ footer {
   color: #fff;
 }
 
+.our_happy_client {
+  /* background: #51a4da; */
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+}
+
 /* section name */
 /* home page
 about us
@@ -716,5 +748,6 @@ our service
 Industries We Serve
 become our partner
 our blog
+client_review_section
 get in touch
 footer */
