@@ -48,40 +48,6 @@ h6 {
   height: 101vh;
 }
 
-/* #header_part::before {
-  content: "";
-  height: 150px;
-  position: absolute;
-  background: #ffffff;
-  transform: rotate(10deg);
-  bottom: -113px;
-  width: 80%;
-  left: -50px;
-}
-
-#header_part::after {
-  content: "";
-  height: 150px;
-  position: absolute;
-  background: #ffffff;
-  transform: rotate(-10deg);
-  bottom: -113px;
-  width: 80%;
-  right: -50px;
-} */
-
-/*
-  .bg_overlay {
-
-      position: absolute;
-      width: 100%;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-  }
-  */
-
 .my_nav {
   margin-left: auto;
 }
@@ -281,6 +247,13 @@ a {
 
 .sectionwidth {
   width: 85%;
+  /* width: 100%; */
+}
+.technology_img {
+  max-width: 100px;
+  height: auto;
+  /* justify-content: center; */
+  margin: auto;
 }
 
 /* without white bg  */
