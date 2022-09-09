@@ -1,4 +1,8 @@
-# Niharon-Tech official website
+Niharon-Tech official website
+developed by mahi, zeon & rony
 
-![image](https://user-images.githubusercontent.com/69592754/189347074-3a830d37-0b68-4a1c-94cb-b548378d69d4.png)
-
+!This is the landing page view
+![Web 1920 – 1](https://user-images.githubusercontent.com/73699852/154981446-95d524cf-8ddb-45af-bd31-2a9120e68cb4.png)
+This is the service page view
+!This is the specific service page view
+![Artboard – 1](https://user-images.githubusercontent.com/73699852/155038521-a5efbfd2-01b6-458c-945e-8bdedcfa61e6.png)

@@ -31,14 +31,9 @@ body {
   /* background: rgba(30, 30, 30); */
 }
 .testim {
-<<<<<<< HEAD
   /* margin-top: 120px !important; */
   width: 100%;
   /* position: relative; */
-=======
-  width: 100%;
-  /* position: absolute; */
->>>>>>> bc9f6c13aaa8fc036f8c3b6765676a901e3a95e1
   /* top: 50%; */
   /* -webkit-transform: translatey(-50%);
   -moz-transform: translatey(-15%);
@@ -48,7 +43,7 @@ body {
 }
 
 .testim .wrap {
-  /* position: relative; */
+  position: relative;
   width: 100%;
   max-width: 1020px;
   padding: 40px 20px;
