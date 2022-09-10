@@ -435,6 +435,15 @@ nav {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .technology_img {
+    margin: auto;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 /* car animation  */
 @import url("https://fonts.googleapis.com/css?family=Roboto:700");
 @keyframes showTopText {
