@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Eugenio Segala" />
+    <meta name="description" content="An extremely easy and clear SlideShow Background dev in Vanilla JS." />
+    <meta name="keywords" content="javascript,background-image,slides,slider,slideshow,gallery,js" />
     <title>Niharon Technologies</title>
     <meta
       name="description"
@@ -11,7 +14,6 @@
     />
     <link rel="icon" href="images/logo/Niharon Logo Renew.png" />
     <!-- Emailjs link  -->
-
     <!-- bootstrap link  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -19,52 +21,28 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
     <!-- font style -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet" />
-
     <!-- custom css link  -->
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- font awesome link  -->
-    <!-- <script src="https://kit.fontawesome.com/a4715fc7ee.js" crossorigin="anonymous"></script> -->
     <script src="https://kit.fontawesome.com/aca266facc.js" crossorigin="anonymous"></script>
-
-    <!-- </script> -->
-
-    <!-- bootstrap link  -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
-
     <!-- font style -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet" /> -->
-    <!-- custom css link  -->
     <link rel="stylesheet" href="css/client_review.css" />
-    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
-
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"
-    /> -->
-
     <!-- font awesome link  -->
     <script src="https://kit.fontawesome.com/aca266facc.js" crossorigin="anonymous"></script>
-
-    <!-- </script> -->
   </head>
 
   <body class="w-100 d-flex flex-column justify-content-center align-items-center">
     <!-- ==========new home page (rony)========== -->
 
     <!-- ====================header_part==================== -->
+    <!-- header_part_bgslide start -->
+
+    <!-- header_part_bgslide end -->
 
     <section id="header_part">
       <div class="header_part_overlay">
@@ -241,7 +219,6 @@
 
     <main class="w-100 d-flex flex-column justify-content-center align-items-center mb-4">
       <!-- ============our products start============  -->
-
       <section
         id="our_products_section"
         class="w-sm-100 sectionwidth my-3 d-flex flex-column justify-content-center align-items-center content"
@@ -803,10 +780,30 @@
     <script src="js/client_review.js"></script>
     <!-- <script src="ness.js"></script> -->
     <script src="js/index.js"></script>
+    <script src="js/easy_background.js"></script>
     <script>
       $(window).scroll(function () {
         $("nav").toggleClass("scrolled", $(this).scrollTop() > 50);
       });
+    </script>
+    <!-- easy_bg_slide -->
+    <script>
+      easy_background(
+        "#header_part",
+
+        {
+          // slide: ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg"],
+          slide: [
+            "images/carousol/bgslide3.jpg",
+            "images/carousol/bgslide5.jpg",
+            "images/carousol/bgslide7.jpg",
+            "images/carousol/bgslide8.jpg",
+            "images/carousol/bgslide6.jpg",
+          ],
+
+          delay: [5000, 5000, 5000, 5000, 5000],
+        }
+      );
     </script>
   </body>
 </html>
