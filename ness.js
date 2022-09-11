@@ -6,7 +6,7 @@ HeaderNavbar.innerHTML = `
           <div class="row">
             <div class="col-lg-12 d-flex justify-content-center align-items-center">
               <nav class="navbar navbar-expand-lg navbar-dark nav_float fixed-top bgcolor">
-                <a href="#" class=""><img width="150" src="/images/logo/Niharon Logo Renew-02.png" alt="no img" /></a>
+                <a href="#" class=""><img width="150" src="images/logo/Niharon Logo Renew-02.png" alt="no img" /></a>
 
                 <button
                   class="navbar-toggler"
@@ -23,22 +23,22 @@ HeaderNavbar.innerHTML = `
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav my_nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="/index.html">Home</a>
+                      <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/html/products.html">Projects</a>
+                      <a class="nav-link" href="html/products.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/html/our-services.html">Services</a>
+                      <a class="nav-link" href="html/our-services.html">Services</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/html/blog.html">Blog</a>
+                      <a class="nav-link" href="html/blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/html/about.html">About</a>
+                      <a class="nav-link" href="html/about.html">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/html/contact-us.html">Contact Us</a>
+                      <a class="nav-link" href="html/contact-us.html">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -56,7 +56,7 @@ HeaderNavbar.innerHTML = `
                     href=""
                     class="typewrite"
                     data-period="2000"
-                    data-type='[ "Niharon Techonologies", "Software Development", "Web Development","Class Manager", "Shop Manager","OdolBodol" ]'
+                    data-type='[ "Niharon Techonologies", "Software Development", "Web Development","SaaS Projects", "Open Source Projects","Odolbodol", "Class Manager", "Shop Manager", "Education & Training", "Package Development" ]'
                   >
                     <span class="wrap"></span
                   ></a>
