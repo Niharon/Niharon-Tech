@@ -48,6 +48,11 @@
   text-align: justify;
 }
 
+.testimonial i {
+  font-size: 30px;
+  color: #adaaaa;
+}
+
 .user {
   display: flex;
   align-items: center;
@@ -96,5 +101,11 @@
   }
   .fa-quote {
     visibility: hidden;
+  }
+}
+
+@media (max-width: 800px) {
+  .testimonial_head {
+    height: 75vh;
   }
 }

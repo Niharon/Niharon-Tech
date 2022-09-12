@@ -730,10 +730,12 @@ footer {
   color: #fff;
 }
 
-.our_happy_client {
+#our_happy_client {
   /* background: #51a4da; */
   /* padding-top: 50px; */
   padding-bottom: 50px;
+  overflow: hidden;
+  margin-top: 50px;
 }
 
 /* section name */

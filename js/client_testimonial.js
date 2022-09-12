@@ -9,13 +9,13 @@ const testimonials = [
     name: "Md. Riad Hasan",
     position: "Softology ",
     photo: "images/client_testimonial/riad_hasan.jpg",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus inventore hic quo ipsum nihil.Incidunt qui ipsum quisquam sequi maxime architecto similique reiciendis quidem facilis corporis libero nam nemo ratione id necessitatibus ab debitis nulla harum.Optio corrupti dolorum debitis incidunt est architecto voluptas aut nobis amet corporis accusamus.",
+    text: "<i class='fa fa-quote-left fa-2xl'></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus inventore hic quo ipsum nihil.Incidunt qui ipsum quisquam sequi maxime architecto similique reiciendis quidem facilis corporis libero nam nemo ratione id necessitatibus ab debitis nulla harum.Optio corrupti dolorum debitis incidunt est architecto voluptas <i class='fa fa-quote-right fa-2xl'></i>",
   },
   {
     name: "MD. Rakib Hasnat Biswas",
     position: "Founder, Ahoron ",
     photo: "images/client_testimonial/rakib_hasnat.jpg",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus inventore hic quo ipsum nihil.Incidunt qui ipsum quisquam sequi maxime architecto similique reiciendis quidem facilis corporis libero nam nemo ratione id necessitatibus ab debitis nulla harum.Optio corrupti dolorum debitis incidunt est architecto voluptas aut nobis amet corporis accusamus.",
+    text: "<i class='fa fa-quote-left fa-2xl'></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus inventore hic quo ipsum nihil.Incidunt qui ipsum quisquam sequi maxime architecto similique reiciendis quidem facilis corporis libero nam nemo ratione id necessitatibus ab debitis nulla harum.Optio corrupti dolorum debitis incidunt est architecto. <i class='fa fa-quote-right fa-2xl'></i>",
   },
 ];
 
