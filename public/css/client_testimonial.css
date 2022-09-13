@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
   margin: 0;
   padding: 10px;
@@ -46,6 +46,11 @@
 .testimonial {
   line-height: 28px;
   text-align: justify;
+}
+
+.testimonial i {
+  font-size: 30px;
+  color: #adaaaa;
 }
 
 .user {
@@ -96,5 +101,17 @@
   }
   .fa-quote {
     visibility: hidden;
+  }
+}
+
+/* @media (max-width: 912px) and (min-width: 499px) {
+  .testimonial_head {
+    height: 60vh;
+  }
+} */
+
+@media (max-width: 900px) and (min-width: 300px) {
+  .testimonial_head {
+    height: 50vh;
   }
 }

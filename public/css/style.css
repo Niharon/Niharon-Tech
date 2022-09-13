@@ -601,6 +601,7 @@ nav {
   background: #51a4da;
   margin-bottom: 50px;
   padding-bottom: 50px;
+  margin-top: 25px;
   /* overflow: hidden; */
 }
 
@@ -617,35 +618,9 @@ nav {
 .inda_logos img {
   height: 50px;
   width: 50px;
+  margin: auto;
 }
 /*--------------- indstries we server  */
-
-/*------------------------------- blog  */
-.sectionwidthBlog {
-  width: 80%;
-}
-.bcc {
-  height: 170px;
-  width: 100%;
-}
-.bg-card-prop-blog {
-  background-size: cover;
-  background-position: top;
-}
-#blog-1 {
-  background-image: url("../images/dev/ngo.jpg");
-}
-#blog-3 {
-  background-image: url("../images/dev/Ecommerce-Business-Ideas-1.jpg");
-}
-#blog-2 {
-  background-image: url("../images/dev/macOS_Dark_Mode.png");
-}
-.pp-rounded {
-  border-radius: 7px;
-}
-
-/*--------------------------------- blog  */
 
 /*------------------------- be a partner section  */
 @media screen and (max-width: 686px) {
@@ -730,10 +705,12 @@ footer {
   color: #fff;
 }
 
-.our_happy_client {
+#our_happy_client {
   /* background: #51a4da; */
   /* padding-top: 50px; */
   padding-bottom: 50px;
+  overflow: hidden;
+  margin-top: 50px;
 }
 
 /* section name */
