@@ -617,6 +617,7 @@ nav {
 .inda_logos img {
   height: 50px;
   width: 50px;
+  margin: auto;
 }
 /*--------------- indstries we server  */
 
@@ -636,7 +637,7 @@ nav {
   background-image: url("../images/dev/ngo.jpg");
 }
 #blog-3 {
-  background-image: url("../images/dev/Ecommerce-Business-Ideas-1.jpg");
+  background-image: url("../images/dev/image4.png");
 }
 #blog-2 {
   background-image: url("../images/dev/macOS_Dark_Mode.png");
