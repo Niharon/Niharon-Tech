@@ -9,13 +9,13 @@ const testimonials = [
     name: "Md. Riad Hasan",
     position: "Softology ",
     photo: "images/client_testimonial/riad_hasan.jpg",
-    text: "<i class='fa fa-quote-left fa-2xl'></i> &nbsp; &nbsp; We have been very happy with our new website! It looks professional and very easy to navigate. I would highly recommend Niharon Technology. They are great to work with. &nbsp; &nbsp; <i class='fa fa-quote-right fa-2xl'></i>",
+    text: "<i class='fa fa-quote-left fa-2xl'></i> &nbsp; &nbsp; It was an amazing deal. Your work is so professional. I am happy with that. Next time, I will go with you without any thought. Thank you. &nbsp; &nbsp; <i class='fa fa-quote-right fa-2xl'></i>",
   },
   {
-    name: "MD. Rakib Hasnat Biswas",
+    name: "MD. Rakibul Biswas",
     position: "Founder, Ahoron ",
     photo: "images/client_testimonial/rakib_hasnat.jpg",
-    text: "<i class='fa fa-quote-left fa-2xl'></i> &nbsp; &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus inventore hic quo ipsum nihil.Incidunt qui ipsum quisquam sequi maxime architecto similique reiciendis quidem facilis corporis libero nam nemo ratione id necessitatibus ab debitis nulla harum.Optio corrupti dolorum debitis incidunt est architecto. &nbsp; &nbsp; <i class='fa fa-quote-right fa-2xl'></i>",
+    text: "<i class='fa fa-quote-left fa-2xl'></i> &nbsp; &nbsp; We have been very happy with our new website! It looks professional and very easy to navigate. I would highly recommend Niharon Technology. They are great to work with. &nbsp; &nbsp; <i class='fa fa-quote-right fa-2xl'></i>",
   },
 ];
 
