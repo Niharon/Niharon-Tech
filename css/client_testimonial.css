@@ -45,7 +45,7 @@
 
 .testimonial {
   line-height: 28px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .testimonial i {
@@ -110,8 +110,16 @@
   }
 } */
 
-@media (max-width: 900px) and (min-width: 300px) {
+@media (max-width: 900px) and (min-width: 599px) {
   .testimonial_head {
     height: 50vh;
+  }
+}
+@media (max-width: 600px) and (min-width: 300px) {
+  .testimonial_head {
+    height: 65vh;
+  }
+  .testimonial-container {
+    padding: 40px 30px 20px 30px;
   }
 }
