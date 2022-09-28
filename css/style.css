@@ -633,6 +633,15 @@ footer {
   padding-top: 60px;
   padding-bottom: 70px;
 }
+
+.footer_part_class {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #02081a;
+}
+
 .footerWeight {
   width: 85%;
 }
@@ -646,11 +655,11 @@ footer {
     margin: 0px 20px;
   }
 }
-/* ---------------------------------------footer section  */
+/*=============footer section=============*/
 
 /* ==============OUR SERVICE PAGE============== */
 
-/* --------------------------------------our services car  */
+/*==========our services car==========  */
 
 .OS-services-card-prop {
   border-radius: 10px;
@@ -697,6 +706,7 @@ footer {
 .card_size p {
   color: #fff;
 }
+/* ========our_happy_client======== */
 
 #our_happy_client {
   /* background: #51a4da; */
@@ -718,9 +728,9 @@ footer {
   #blogs_section {
     width: 90%;
   }
-  .testimonial_head {
+  /* .testimonial_head {
     width: 90%;
-  }
+  } */
   #project_section .container {
     flex-direction: column;
     align-items: center;
