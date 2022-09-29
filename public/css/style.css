@@ -633,6 +633,15 @@ footer {
   padding-top: 60px;
   padding-bottom: 70px;
 }
+
+.footer_part_class {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #02081a;
+}
+
 .footerWeight {
   width: 85%;
 }
@@ -646,11 +655,11 @@ footer {
     margin: 0px 20px;
   }
 }
-/* ---------------------------------------footer section  */
+/*=============footer section=============*/
 
 /* ==============OUR SERVICE PAGE============== */
 
-/* --------------------------------------our services car  */
+/*==========our services car==========  */
 
 .OS-services-card-prop {
   border-radius: 10px;
@@ -697,6 +706,7 @@ footer {
 .card_size p {
   color: #fff;
 }
+/* ========our_happy_client======== */
 
 #our_happy_client {
   /* background: #51a4da; */
@@ -718,9 +728,9 @@ footer {
   #blogs_section {
     width: 90%;
   }
-  .testimonial_head {
+  /* .testimonial_head {
     width: 90%;
-  }
+  } */
   #project_section .container {
     flex-direction: column;
     align-items: center;
@@ -736,6 +746,67 @@ footer {
     width: 50%;
   }
 }
+
+/*-- testimonial Section CSS --*/
+#testimonial {
+    padding: 30px 0px 60px;
+    color: #fff;
+    background-color: #1d74ad;
+}
+#testimonial h2 {
+    font-style: italic;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+#testimonial .client-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    margin: 0px auto;
+    border-radius: 100%;
+    position: absolute;
+    left: 0px;
+}
+#testimonial .carousel-content {
+    padding: 20px 0px 20px 100px;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+#testimonial h3 {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: right;
+}
+#testimonial p {
+    font-size: 15px;
+}
+#testimonial .client-img img {
+    width: 100%;
+}
+#testimonial .carousel-control-prev,
+#testimonial .carousel-control-next {
+    font-size: 36px;
+}
+
+@media (max-width: 576px) {
+#testimonial .carousel-content {
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+}
+#testimonial .client-img {
+    margin: 20px auto;
+    position: static;
+}
+#testimonial h3, #testimonial p {
+    text-align: center;
+}
+}
+/*-- End Testimonial Section CSS --*/
 
 /* section name */
 /* home page

@@ -9,7 +9,13 @@ const texts = [
   "Web Development",
   "Software Development",
   "Software As A Service",
+  "Data Science & AI",
+  "Publication",
+  "Branding & Marketing",
   "Education & Training",
+  "Class Manager",
+  "Shop Manager",
+  "OdolBodol",
 ];
 function abc(x) {
   console.log("connect");
