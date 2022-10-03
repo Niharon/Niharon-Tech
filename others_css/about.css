@@ -1,10 +1,33 @@
 /* ==========service_section========== */
+#service_section {
+}
+
+.niharon_core {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.niharon_desp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.niharon_desp img {
+  width: 110px;
+  border-radius: 50%;
+  border: 4px solid #1c3840;
+}
+
+.niharon_desp h5 {
+  padding-top: 10px;
+}
 
 .social_link a i {
   color: #015873;
 }
-
-/* .card_height{
-  height: fit-content;
-}
- */
