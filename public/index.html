@@ -9,22 +9,16 @@
     <meta name="keywords" content="javascript,background-image,slides,slider,slideshow,gallery,js" />
     <title>Niharon Technologies</title>
     <link rel="icon" href="images/logo/Niharon Logo Renew.png" />
-    <!-- slick carosole link -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+
+    <!-- fontawesome link -->
 
     <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 
     <!-- bootstrap link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- font style -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet" /> -->
-    <!-- client testimonial link  -->
 
     <!-- custom css link  -->
     <link rel="stylesheet" href="others_css/blog.css" />
@@ -297,9 +291,7 @@
         </div>
       </section>
 
-      <!-- ========section blog here========  -->
-
-      <!-- new -->
+      <!-- ===========blogs_section=========== -->
       <section id="blogs_section">
         <div class="about_txt text-center">
           <h2 class="my-3 heading_color">OUR BLOG</h2>
@@ -350,107 +342,93 @@
       </section>
 
       <!-- Testimonials Section -->
-    <section id="testimonial">
+      <section id="testimonial">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h2>Client Testimonials</h2>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Slide Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#testimonialCarousel" data-slide-to="1"></li>
-                            <li data-target="#testimonialCarousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                            <!-- Slide 1 -->
-                            <div class="carousel-item active">
-                                <div class="carousel-content">
-                                    <div class="client-img"><img src="images/client_testimonial/rakib_hasnat.jpg" alt="Testimonial Slider" /></div>
-                                    <p><i>We have been very happy with our new website! It
-                    looks professional and very easy to navigate. I would highly recommend Niharon Technology. They are
-                    great to work with. </i></p>
-                                    <h3><span>-</span> Md. Rakibul Biswas (Founder, Ahoron) <span>-</span></h3>
-                                </div>
-                            </div>
-                            <!-- Slide 2 -->
-                            <div class="carousel-item">
-                                <div class="carousel-content">
-                                    <div class="client-img"><img src="images/client_testimonial/riad_hasan.jpg" alt="Testimonial Slider" /></div>
-                                    <p><i>It was an amazing deal. Your work is so
-                    professional. I am happy with that. Next time, I will go with you without any thought. Thank you.</i></p>
-                                    <h3><span>-</span> Md. Riad Hasan (Founder, Softology) <span>-</span></h3>
-                                </div>
-                            </div>
-                            <!-- Slide 3 -->
-                            <!-- <div class="carousel-item">
-                                <div class="carousel-content">
-                                    <div class="client-img"><img src="images/user-img-3.jpg" alt="Testimonial Slider" /></div>
-                                    <p><i>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available. Lorem Ipsum is simply dummy text of the printing and typesetting industry</i></p>
-                                    <h3><span>-</span> Md. Demo Demo <span>-</span></h3>
-                                </div>
-                            </div> -->
-                            <!-- Slider pre and next arrow -->
-                            <a class="carousel-control-prev text-white" href="#testimonialCarousel" role="button" data-slide="prev">
-                                <i class="fas fa-chevron-left"></i>
-                            </a>
-                            <a class="carousel-control-next text-white" href="#testimonialCarousel" role="button" data-slide="next">
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-8 m-auto">
+              <div class="section-title align-center">
+                <h2 class="text-center">Client Testimonials</h2>
+              </div>
             </div>
-        </div>
-    </section>
-    <!-- End testimonials Section -->
+            <div class="content-wrapper">
+              <!-- <h1>Our Reviews</h1> -->
+              <div class="blue-line"></div>
+              <div class="wrapper-for-arrows">
+                <div style="opacity: 0" class="chicken"></div>
+                <div id="reviewWrap" class="review-wrap">
+                  <div id="imgDiv" class=""></div>
+                  <div id="personName"></div>
+                  <div id="profession"></div>
+                  <div id="description"></div>
+                </div>
+                <!-- <div id="surpriseMeBtn" class="surprise-me-btn">Surprise me</div> -->
+                <div class="left-arrow-wrap arrow-wrap">
+                  <div class="arrow" id="leftArrow"></div>
+                </div>
+                <div class="right-arrow-wrap arrow-wrap">
+                  <div class="arrow" id="rightArrow"></div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-12">
+              <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                  <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <div class="carousel-content">
+                      <div class="client-img">
+                        <img src="images/client_testimonial/rakib_hasnat.jpg" alt="Testimonial Slider" />
+                      </div>
+                      <p>
+                        <i
+                          >We have been very happy with our new website! It looks professional and very easy to
+                          navigate. I would highly recommend Niharon Technology. They are great to work with.
+                        </i>
+                      </p>
+                      <h3><span>-</span> Md. Rakibul Biswas (Founder, Ahoron) <span>-</span></h3>
+                    </div>
+                  </div>
 
-      <!-- ============client_testimonial============ -->
-      <!-- <section id="client_testimonial" class="icones">
-        <div class="about_txt text-center">
-          <h2 class="my-3 heading_color">Client Testimonial</h2>
-        </div>
-        <div class="container">
-          <div class="row icones-carousel">
-            <div class="item col-auto col-sm-12 w-100">
-              <div class="client_body">
-                <div class="client_pp_img">
-                  <img src="images/client_testimonial/rakib_hasnat.jpg" alt="" width="100" />
-                </div>
-                <div class="client_name_title">
-                  <h6>Md. Rakibul Biswas</h6>
-                  <p>Founder, Ahoron</p>
-                  <p class="pb-4">
-                    <i class="fa fa-quote-left fa-2xl"></i>&nbsp; &nbsp;We have been very happy with our new website! It
-                    looks professional and very easy to navigate. I would highly recommend Niharon Technology. They are
-                    great to work with. &nbsp; &nbsp;<i class="fa fa-quote-right fa-2xl"></i>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="item col-auto col-sm-12 w-100">
-              <div class="client_body">
-                <div class="client_pp_img">
-                  <img src="images/client_testimonial/riad_hasan.jpg" alt="" width="100" />
-                </div>
-                <div class="client_name_title">
-                  <h6>Md. Riad Hasan</h6>
-                  <p>Founder, Softology</p>
-                  <p class="pb-4">
-                    <i class="fa fa-quote-left fa-2xl"></i>&nbsp; &nbsp; It was an amazing deal. Your work is so
-                    professional. I am happy with that. Next time, I will go with you without any thought. Thank you.
-                    &nbsp; &nbsp;<i class="fa fa-quote-right fa-2xl"></i>
-                  </p>
+                  <div class="carousel-item">
+                    <div class="carousel-content">
+                      <div class="client-img">
+                        <img src="images/client_testimonial/riad_hasan.jpg" alt="Testimonial Slider" />
+                      </div>
+                      <p>
+                        <i
+                          >It was an amazing deal. Your work is so professional. I am happy with that. Next time, I will
+                          go with you without any thought. Thank you.</i
+                        >
+                      </p>
+                      <h3><span>-</span> Md. Riad Hasan (Founder, Softology) <span>-</span></h3>
+                    </div>
+                  </div>
+                  <a
+                    class="carousel-control-prev text-white"
+                    href="#testimonialCarousel"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <i class="fas fa-chevron-left"></i>
+                  </a>
+                  <a
+                    class="carousel-control-next text-white"
+                    href="#testimonialCarousel"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
-      </section> -->
+      </section>
 
       <!-- ===========our_happy_client=========== -->
       <section id="our_happy_client" class="my-3">
@@ -520,8 +498,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
     <!-- client_testimonial_slick_carosole -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
     <!-- custom script -->
     <script src="js/easy_background.js"></script>
     <script src="ness.js"></script>
