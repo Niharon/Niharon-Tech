@@ -21,6 +21,7 @@
     <!-- font style -->
 
     <!-- custom css link  -->
+    <link rel="stylesheet" href="others_css/expand_service.css" />
     <link rel="stylesheet" href="others_css/blog.css" />
     <link rel="stylesheet" href="css/client_testimonial.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -95,7 +96,7 @@
         class="w-sm-100 sectionwidth my-3 d-flex flex-column justify-content-center align-items-center content"
       >
         <div class="about_txt text-center">
-          <h2 class="my-3 heading_color">Our Products</h2>
+          <h2 class="my-3 heading_color">Our SasS Projects</h2>
           <h5 class="mb-5">
             We Have our own SaaS products that are innovated to make your life easy and to introduce you with new
             systems
@@ -106,11 +107,11 @@
           <div class="row g-4">
             <div class="col-sm-6 col-lg-4">
               <div
-                onclick="location.href='./html/niharon-product-CM.html'"
+                onclick="location.href='./html/niharon-product-OB.html'"
                 class="card_shadow d-flex flex-column justify-content-center align-items-center overflow-hidden zoom pp-rounded"
               >
-                <div id="c-1" class="ccc bg-card-prop"></div>
-                <p class="py-2 text-center product_text_style">Niharon Class Manager</p>
+                <div id="c-3" class="ccc bg-card-prop"></div>
+                <p class="py-2 text-center product_text_style">Odol Bodol</p>
               </div>
             </div>
 
@@ -119,20 +120,33 @@
                 onclick="location.href='./html/niharon-product-SM.html'"
                 class="card_shadow d-flex flex-column justify-content-center align-items-center overflow-hidden zoom pp-rounded"
               >
-                <div id="c-2" class="ccc bg-card-prop"></div>
-                <p class="py-2 text-center product_text_style">Niharon Shop Manager</p>
+                <div id="c-10" class="ccc bg-card-prop"></div>
+                <p class="py-2 text-center product_text_style">Odurei</p>
               </div>
             </div>
 
             <div class="col-sm-6 col-lg-4">
               <div
-                onclick="location.href='./html/niharon-product-OB.html'"
+                onclick="location.href='./html/niharon-product-CM.html'"
                 class="card_shadow d-flex flex-column justify-content-center align-items-center overflow-hidden zoom pp-rounded"
               >
-                <div id="c-3" class="ccc bg-card-prop"></div>
-                <p class="py-2 text-center product_text_style">Odol Bodol</p>
+                <div id="c-1" class="ccc bg-card-prop"></div>
+                <p class="py-2 text-center product_text_style">Niharon Class Manager</p>
               </div>
             </div>
+
+            <!-- <div class="col-sm-6 col-lg-4">
+              <div
+                onclick="location.href='./html/niharon-product-SM.html'"
+                class="card_shadow d-flex flex-column justify-content-center align-items-center overflow-hidden zoom pp-rounded"
+              >
+                <div id="c-2" class="ccc bg-card-prop"></div>
+                <p class="py-2 text-center product_text_style">Niharon Shop Manager</p>
+              </div>
+            </div> -->
+          </div>
+          <div class="sass_see_more_btn mt-4">
+            <a href="html/products.html" class="btn_t">See More</a>
           </div>
         </div>
       </section>
@@ -150,8 +164,230 @@
           </h5>
         </div>
 
-        <div class="container text-secondary">
+        <!-- =============code_copy_expand_box start============= -->
+
+        <div class="wrappeer">
+          <div class="cards">
+            <div class="card [ is-collapsed ]">
+              <div class="card__inner [ js-expander ]">
+                <span>Web Development</span>
+                <!-- <i class="fa fa-folder-o"></i> -->
+              </div>
+              <div class="card__expander p-3">
+                <i class="fa fa-close [ js-collapser ]"></i>
+                <h5>Web Development</h5>
+                <p>Making tailored software solutions for medium to large-cap. companies are our...</p>
+
+                <ul class="p-3">
+                  <li>Portfolio</li>
+                  <li>E-Commerce</li>
+                  <li>Hospital Management</li>
+                  <li>Education Web Application</li>
+                </ul>
+                <a href="#" class="view_details_expand">View Details</a>
+                <!-- <a href="#0" id="pop1btn" class="cd-popup-trigger" onclick="openpopup('pop1')">View Pop-up 1</a> -->
+              </div>
+              <div id="pop1" class="cd-popup" role="alert">
+                <div class="cd-popup-container">
+                  <p>Are you sure you want to delete this element 1 ?</p>
+                  <a href="#0" class="cd-popup-close"></a>
+                </div>
+                <!-- cd-popup-container -->
+              </div>
+              <!-- cd-popup -->
+            </div>
+
+            <div class="card [ is-collapsed ]">
+              <div class="card__inner [ js-expander ]">
+                <span>Software Development</span>
+                <!-- <i class="fa fa-folder-o"></i> -->
+              </div>
+              <div class="card__expander p-3">
+                <i class="fa fa-close [ js-collapser ]"></i>
+                <h5>Software Development</h5>
+                <p>Making tailored software solutions for medium to large-cap. companies are our...</p>
+
+                <ul class="p-3">
+                  <li>Android application development</li>
+                  <li>Windows application development</li>
+                  <li>Linux application development</li>
+                  <li>iOS application development</li>
+                </ul>
+                <a href="#" class="view_details_expand">View Details</a>
+                <!-- <a href="#0" class="cd-popup-trigger" onclick="openpopup('pop2')">View Pop-up 2</a> -->
+              </div>
+              <div id="pop2" class="cd-popup" role="alert">
+                <div class="cd-popup-container">
+                  <p>Are you sure you want to delete this element 2 ?</p>
+                  <a href="#0" class="cd-popup-close"></a>
+                </div>
+                <!-- cd-popup-container -->
+              </div>
+            </div>
+
+            <div class="card [ is-collapsed ]">
+              <div class="card__inner [ js-expander ]">
+                <span>Sass</span>
+                <!-- <i class="fa fa-folder-o"></i> -->
+              </div>
+              <div class="card__expander p-3">
+                <i class="fa fa-close [ js-collapser ]"></i>
+                <h5>Sass</h5>
+                <p>We provide Software as a Service (SaaS) through various platforms and automate...</p>
+
+                <ul class="p-3">
+                  <li>Portfolio</li>
+                  <li>E-Commerce</li>
+                  <li>Hospital Management</li>
+                  <li>Education Web Application</li>
+                </ul>
+                <a href="#" class="view_details_expand">View Details</a>
+                <!-- <a href="#0" id="pop1btn" class="cd-popup-trigger" onclick="openpopup('pop3')">View Pop-up 3</a> -->
+              </div>
+              <div id="pop3" class="cd-popup" role="alert">
+                <div class="cd-popup-container">
+                  <p>Are you sure you want to delete this element 3 ?</p>
+                  <a href="#0" class="cd-popup-close"></a>
+                </div>
+                <!-- cd-popup-container -->
+              </div>
+            </div>
+
+            <div class="card [ is-collapsed ]">
+              <div class="card__inner [ js-expander ]">
+                <span>Data Science & AI</span>
+                <!-- <i class="fa fa-folder-o"></i> -->
+              </div>
+              <div class="card__expander p-3">
+                <i class="fa fa-close [ js-collapser ]"></i>
+                <div class="card__expander p-3">
+                  <i class="fa fa-close [ js-collapser ]"></i>
+                  <h5>Data Science & AI</h5>
+                  <p>We have solved data-related problems to gain insights from data...</p>
+
+                  <ul class="p-3">
+                    <li>Android application development</li>
+                    <li>Windows application development</li>
+                    <li>Linux application development</li>
+                    <li>iOS application development</li>
+                  </ul>
+                  <a href="#" class="view_details_expand">View Details</a>
+                  <!-- <a href="#0" class="cd-popup-trigger" onclick="openpopup('pop2')">View Pop-up 2</a> -->
+                </div>
+                <!-- <a href="#0" class="cd-popup-trigger" onclick="openpopup('pop3')">View Pop-up 3</a> -->
+              </div>
+              <div id="pop3" class="cd-popup" role="alert">
+                <div class="cd-popup-container">
+                  <p>Are you sure you want to delete this element 3 ?</p>
+                  <a href="#0" class="cd-popup-close"></a>
+                </div>
+                <!-- cd-popup-container -->
+              </div>
+            </div>
+
+            <div class="card [ is-collapsed ]">
+              <div class="card__inner [ js-expander ]">
+                <span>Publication</span>
+                <!-- <i class="fa fa-folder-o"></i> -->
+              </div>
+              <div class="card__expander p-3">
+                <i class="fa fa-close [ js-collapser ]"></i>
+                <div class="card__expander p-3">
+                  <i class="fa fa-close [ js-collapser ]"></i>
+                  <h5>Publication</h5>
+                  <p>We have several books on programming and Computer...</p>
+
+                  <ul class="p-3">
+                    <li>Android application development</li>
+                    <li>Windows application development</li>
+                    <li>Linux application development</li>
+                    <li>iOS application development</li>
+                  </ul>
+                  <a href="#" class="view_details_expand">View Details</a>
+                  <!-- <a href="#0" class="cd-popup-trigger" onclick="openpopup('pop2')">View Pop-up 2</a> -->
+                </div>
+                <!-- <a href="#0" class="cd-popup-trigger" onclick="openpopup('pop3')">View Pop-up 3</a> -->
+              </div>
+              <div id="pop3" class="cd-popup" role="alert">
+                <div class="cd-popup-container">
+                  <p>Are you sure you want to delete this element 3 ?</p>
+                  <a href="#0" class="cd-popup-close"></a>
+                </div>
+                <!-- cd-popup-container -->
+              </div>
+            </div>
+
+            <div class="card [ is-collapsed ]">
+              <div class="card__inner [ js-expander ]">
+                <span>Branding & Marketing</span>
+                <!-- <i class="fa fa-folder-o"></i> -->
+              </div>
+              <div class="card__expander p-3">
+                <i class="fa fa-close [ js-collapser ]"></i>
+                <div class="card__expander p-3">
+                  <i class="fa fa-close [ js-collapser ]"></i>
+                  <h5>Branding & Marketing</h5>
+                  <p>We have a wide range of networks that will help you to grow...</p>
+
+                  <ul class="p-3">
+                    <li>Android application development</li>
+                    <li>Windows application development</li>
+                    <li>Linux application development</li>
+                    <li>iOS application development</li>
+                  </ul>
+                  <a href="#" class="view_details_expand">View Details</a>
+                  <!-- <a href="#0" class="cd-popup-trigger" onclick="openpopup('pop2')">View Pop-up 2</a> -->
+                </div>
+                <!-- <a href="#0" class="cd-popup-trigger" onclick="openpopup('pop3')">View Pop-up 3</a> -->
+              </div>
+              <div id="pop3" class="cd-popup" role="alert">
+                <div class="cd-popup-container">
+                  <p>Are you sure you want to delete this element 3 ?</p>
+                  <a href="#0" class="cd-popup-close"></a>
+                </div>
+                <!-- cd-popup-container -->
+              </div>
+            </div>
+
+            <div class="card [ is-collapsed ]">
+              <div class="card__inner [ js-expander ]">
+                <span>Education & Training</span>
+                <!-- <i class="fa fa-folder-o"></i> -->
+              </div>
+              <div class="card__expander p-3">
+                <i class="fa fa-close [ js-collapser ]"></i>
+                <div class="card__expander p-3">
+                  <i class="fa fa-close [ js-collapser ]"></i>
+                  <h5>Education & Training</h5>
+                  <p>We have skillful tutors and effective courses which will help...</p>
+
+                  <ul class="p-3">
+                    <li>Android application development</li>
+                    <li>Windows application development</li>
+                    <li>Linux application development</li>
+                    <li>iOS application development</li>
+                  </ul>
+                  <a href="#" class="view_details_expand">View Details</a>
+                  <!-- <a href="#0" class="cd-popup-trigger" onclick="openpopup('pop2')">View Pop-up 2</a> -->
+                </div>
+                <!-- <a href="#0" class="cd-popup-trigger" onclick="openpopup('pop3')">View Pop-up 3</a> -->
+              </div>
+              <div id="pop3" class="cd-popup" role="alert">
+                <div class="cd-popup-container">
+                  <p>Are you sure you want to delete this element 3 ?</p>
+                  <a href="#0" class="cd-popup-close"></a>
+                </div>
+                <!-- cd-popup-container -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =============code_copy_expand_box end============= -->
+
+        <!-- <div class="container text-secondary">
           <div class="row g-4">
+
             <div class="col-sm-12 col-lg-6">
               <div
                 class="shadow d-flex flex-column justify-content-center align-items-center overflow-hidden pp-rounded"
@@ -212,7 +448,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
       <!-- our services end -->
 
@@ -224,45 +460,40 @@
               <h2 class="my-3">Industries We Serve</h2>
             </div>
           </div>
+
           <div class="row text-center mt-4">
-            <div class="col-lg-2 col-4">
+            <div class="col-lg-2 col-md-6 col-sm-6">
               <div class="inda_logos my-2">
-                <!-- <img src="/images/iws/iwsS (1).png" alt="" /> -->
                 <img src="images/iws/iwsS (2).png" alt="" />
                 <h6>Education</h6>
               </div>
             </div>
-            <div class="col-lg-2 col-4">
+            <div class="col-lg-2 col-md-6 col-sm-6">
               <div class="inda_logos my-2">
-                <!-- <img src="/images/iws/iwsS (2).png" alt="" /> -->
                 <img src="images/iws/iwsS (3).png" alt="" />
                 <h6>Health Care</h6>
               </div>
             </div>
-            <div class="col-lg-2 col-4">
+            <div class="col-lg-2 col-md-6 col-sm-6">
               <div class="inda_logos my-2">
-                <!-- <img src="/images/iws/iwsS (3).png" alt="" /> -->
                 <img src="images/iws/iwsS (4).png" alt="" />
                 <h6>E-commerce</h6>
               </div>
             </div>
-            <div class="col-lg-2 col-4">
+            <div class="col-lg-2 col-md-6 col-sm-6">
               <div class="inda_logos my-2">
-                <!-- <img src="/images/iws/iwsS (4).png" alt="" /> -->
                 <img src="images/iws/iwsS (5).png" alt="" />
                 <h6>Startup</h6>
               </div>
             </div>
-            <div class="col-lg-2 col-4">
+            <div class="col-lg-2 col-md-6 col-sm-6">
               <div class="inda_logos my-2">
-                <!-- <img src="/images/iws/iwsS (5).png" alt="" /> -->
                 <img src="images/iws/iwsS (6).png" alt="" />
                 <h6>Software</h6>
               </div>
             </div>
-            <div class="col-lg-2 col-4">
+            <div class="col-lg-2 col-md-6 col-sm-6">
               <div class="inda_logos my-2">
-                <!-- <img src="/images/iws/iwsS (6).png" alt="" /> -->
                 <img src="images/iws/iwsS (1).png" alt="" />
                 <h6>Non-Profit</h6>
               </div>
@@ -278,7 +509,7 @@
         <div class="row m-0">
           <div class="col-lg-6 text-center mb-5">
             <h2 class="">Become Our Partner</h2>
-            <p class="">
+            <p class="px-4">
               With the help of our partners, we can share our expertise and resources around the world. And thus we are
               expanding as the home of top IT professionals So contact us to see how you can join our global family!
             </p>
@@ -501,6 +732,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 
     <!-- custom script -->
+    <script src="js/expand_service.js"></script>
     <script src="js/easy_background.js"></script>
     <script src="ness.js"></script>
     <script src="footer.js"></script>

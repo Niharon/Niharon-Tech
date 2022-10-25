@@ -519,7 +519,7 @@ nav {
 
 /*--------------------------------------- CAROUsOL SECTION  */
 
-/*--------------------------------------- products section  */
+/* =============our_products_section=============  */
 .ccc {
   height: 170px;
   width: 100%;
@@ -538,6 +538,7 @@ nav {
 #c-3 {
   background-image: url("../images/covers/odolbodolnew2.jpg");
 }
+
 #c-4 {
   background-image: url("../images/projects/nihaorn_quran\ copy.jpg");
 }
@@ -563,11 +564,33 @@ nav {
   background-size: contain !important;
   background-repeat: no-repeat;
 }
-
+#c-10 {
+  background-image: url("../images/covers/odureibanner.jpg");
+}
 .pp-rounded {
   border-radius: 7px;
 }
-/*------------------- products section END  */
+
+.sass_see_more_btn {
+  text-align: center;
+}
+
+.sass_see_more_btn .btn_t {
+  padding: 10px 20px;
+  color: #050202;
+  transition: 1s;
+  border: 1px solid #50a3d9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px #4f4f4f;
+}
+
+/* .sass_see_more_btn .btn_t:hover {
+  background: #065487;
+} */
+
+.sass_see_more_btn .btn_t:focus {
+  box-shadow: 0 !important;
+}
 
 /* ------------------service section  */
 .scc {
@@ -605,14 +628,22 @@ nav {
   margin-bottom: 10px;
 }
 
+.inda_logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .inda_logos h6 {
   color: #fff;
+  /* margin-bottom: 0; */
+  margin: 0 10px;
 }
 
 .inda_logos img {
-  height: 50px;
-  width: 50px;
-  margin: auto;
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
 }
 /*--------------- indstries we server  */
 
