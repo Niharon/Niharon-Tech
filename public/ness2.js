@@ -9,12 +9,20 @@ const texts = [
   "Web Development",
   "Software Development",
   "Software As A Service",
+  "Data Science & AI",
+  "Publication",
+  "Branding & Marketing",
   "Education & Training",
+  "Class Manager",
+  "Shop Manager",
+  "OdolBodol",
 ];
 function abc(x) {
   console.log("connect");
   HeaderNavbar.innerHTML = `
-<div class="container-fluid">
+
+    <div class="header_part_overlay">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center align-items-center">
             <nav id="xyz" class="navbar navbar-expand-lg navbar-dark nav_float fixed-top bgcolor ">
@@ -69,11 +77,10 @@ function abc(x) {
               </p><br><br>
               <a href="#" class="mt-3 hdr_btn_mdl">Explore Now</a>
             </div>
-
           </div>
         </div>
       </div>
-
+    </div>
 `;
 }
 

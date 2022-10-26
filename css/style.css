@@ -13,18 +13,15 @@ h5,
 h6 {
   font-weight: 700;
 }
-
 .bgcolor {
   margin: 0 auto;
   width: 100%;
   padding: 0 15px;
 }
-
 .scrolled {
   background: rgba(33, 33, 33, 0.97);
   box-shadow: 0 0 3px 3px #010101;
 }
-
 #header_part {
   width: 100%;
   background: url(../images/carousol/pexels-anna-overlay.jpg);
@@ -38,57 +35,24 @@ h6 {
   height: 101vh;
   background-attachment: fixed;
 }
-
 .header_part_overlay {
-  background: rgb(165, 165, 166);
+  /* background: rgb(165, 165, 166); */
   /* background: linear-gradient(180deg, #51a4da75 0%, #20409a4d 100%); */
-  background: linear-gradient(180deg, #8cfb5a75 0%, #20409a4d 100%);
-
+  /* background: linear-gradient(180deg, #8cfb5a75 0%, #20409a4d 100%); */
+  /* background: linear-gradient(180deg, #8cfb5ad9 0%, #20409ac2 100%); */
+  background: radial-gradient(circle, rgba(49, 148, 182, 0.9) 0%, rgba(18, 15, 46, 0.93) 100%);
   width: 100%;
   height: 101vh;
 }
 
-/* #header_part::before {
-  content: "";
-  height: 150px;
-  position: absolute;
-  background: #ffffff;
-  transform: rotate(10deg);
-  bottom: -113px;
-  width: 80%;
-  left: -50px;
-}
+/* ======header_part_bgslide start====== */
 
-#header_part::after {
-  content: "";
-  height: 150px;
-  position: absolute;
-  background: #ffffff;
-  transform: rotate(-10deg);
-  bottom: -113px;
-  width: 80%;
-  right: -50px;
-} */
-
-/*
-  .bg_overlay {
-
-      position: absolute;
-      width: 100%;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-  }
-  */
-
+/* ======header_part_bgslide end====== */
 .my_nav {
   margin-left: auto;
 }
-
 .my_nav li {
 }
-
 .my_nav li a {
   color: #f3f3f3 !important;
   padding: 10px 15px;
@@ -281,6 +245,13 @@ a {
 
 .sectionwidth {
   width: 85%;
+  /* width: 100%; */
+}
+.technology_img {
+  max-width: 100px;
+  height: auto;
+  /* justify-content: center; */
+  margin: auto;
 }
 
 /* without white bg  */
@@ -405,7 +376,8 @@ nav {
   width: 18%;
 }
 .nav-link {
-  color: #51a4da !important;
+  /* color: #51a4da !important; */
+  color: #fff !important;
   font-weight: 600;
 }
 
@@ -459,6 +431,15 @@ nav {
   }
   .animated-title {
     display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .technology_img {
+    margin: auto;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
   }
 }
 
@@ -538,7 +519,7 @@ nav {
 
 /*--------------------------------------- CAROUsOL SECTION  */
 
-/*--------------------------------------- products section  */
+/* =============our_products_section=============  */
 .ccc {
   height: 170px;
   width: 100%;
@@ -555,8 +536,9 @@ nav {
   background-image: url("../images/covers/appposter.png");
 }
 #c-3 {
-  background-image: url("../images/covers/OdolBodol\ Release.jpg");
+  background-image: url("../images/covers/odolbodolnew2.jpg");
 }
+
 #c-4 {
   background-image: url("../images/projects/nihaorn_quran\ copy.jpg");
 }
@@ -582,11 +564,36 @@ nav {
   background-size: contain !important;
   background-repeat: no-repeat;
 }
-
+#c-10 {
+  background-image: url("../images/covers/odureibanner.jpg");
+}
+#c-11 {
+  background-image: url("../images/projects/chat_app.jpg");
+}
 .pp-rounded {
   border-radius: 7px;
 }
-/*------------------- products section END  */
+
+.sass_see_more_btn {
+  text-align: center;
+}
+
+.sass_see_more_btn .btn_t {
+  padding: 10px 20px;
+  color: #050202;
+  transition: 1s;
+  border: 1px solid #50a3d9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px #4f4f4f;
+}
+
+/* .sass_see_more_btn .btn_t:hover {
+  background: #065487;
+} */
+
+.sass_see_more_btn .btn_t:focus {
+  box-shadow: 0 !important;
+}
 
 /* ------------------service section  */
 .scc {
@@ -614,6 +621,7 @@ nav {
   background: #51a4da;
   margin-bottom: 50px;
   padding-bottom: 50px;
+  margin-top: 25px;
   /* overflow: hidden; */
 }
 
@@ -623,46 +631,27 @@ nav {
   margin-bottom: 10px;
 }
 
+.inda_logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .inda_logos h6 {
   color: #fff;
+  /* margin-bottom: 0; */
+  margin: 0 10px;
 }
 
 .inda_logos img {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
 }
 /*--------------- indstries we server  */
 
-/*------------------------------- blog  */
-.sectionwidthBlog {
-  width: 80%;
-}
-.bcc {
-  height: 170px;
-  width: 100%;
-}
-.bg-card-prop-blog {
-  background-size: cover;
-  background-position: top;
-}
-#blog-1 {
-  background-image: url("../images/dev/ngo.jpg");
-}
-#blog-3 {
-  background-image: url("../images/dev/Ecommerce-Business-Ideas-1.jpg");
-}
-#blog-2 {
-  background-image: url("../images/dev/macOS_Dark_Mode.png");
-}
-.pp-rounded {
-  border-radius: 7px;
-}
-
-/*--------------------------------- blog  */
-
 /*------------------------- be a partner section  */
-@media screen and (max-width: 686px) {
-}
+
 /*------------------------- be a partner section  */
 
 /*--------------------------------------- industry_insight_section */
@@ -678,6 +667,15 @@ footer {
   padding-top: 60px;
   padding-bottom: 70px;
 }
+
+.footer_part_class {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #02081a;
+}
+
 .footerWeight {
   width: 85%;
 }
@@ -691,11 +689,11 @@ footer {
     margin: 0px 20px;
   }
 }
-/* ---------------------------------------footer section  */
+/*=============footer section=============*/
 
 /* ==============OUR SERVICE PAGE============== */
 
-/* --------------------------------------our services car  */
+/*==========our services car==========  */
 
 .OS-services-card-prop {
   border-radius: 10px;
@@ -742,12 +740,48 @@ footer {
 .card_size p {
   color: #fff;
 }
+/* ========our_happy_client======== */
 
-.our_happy_client {
+#our_happy_client {
   /* background: #51a4da; */
   /* padding-top: 50px; */
   padding-bottom: 50px;
+  overflow: hidden;
+  margin-top: 50px;
 }
+
+/* =======responsive code======= */
+
+@media screen and (max-width: 500px) {
+  #our_products_section {
+    width: 90%;
+  }
+  #our_service_section {
+    width: 90%;
+  }
+  #blogs_section {
+    width: 90%;
+  }
+  /* .testimonial_head {
+    width: 90%;
+  } */
+  #project_section .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #project_section .container h2 {
+    padding: 0 !important;
+    margin-bottom: 20px;
+  }
+
+  #project_section .container .cnt_btn {
+    width: 50%;
+  }
+}
+
+/*-- End Testimonial Section CSS --*/
 
 /* section name */
 /* home page

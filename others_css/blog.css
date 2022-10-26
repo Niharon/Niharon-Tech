@@ -1,0 +1,22 @@
+/* ========blogs======== */
+#blogs_section {
+  width: 80%;
+}
+.blog_content {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  color: #6c757d;
+}
+
+.blog_content img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+}
+.blog_content p {
+  padding: 0 10px;
+}
+
+.blog_readmore_btn {
+  padding: 0 15px 15px 15px;
+}
