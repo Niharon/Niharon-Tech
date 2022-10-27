@@ -517,7 +517,7 @@ nav {
 }
 /* car animation  */
 
-/*--------------------------------------- CAROUsOL SECTION  */
+/*==========CAROUsOL SECTION==========  */
 
 /* =============our_products_section=============  */
 .ccc {
@@ -599,7 +599,7 @@ nav {
   box-shadow: 0 !important;
 }
 
-/* ------------------service section  */
+/* ==============service section============== */
 .scc {
   height: 210px;
   width: 100%;
@@ -617,7 +617,19 @@ nav {
   background-image: url("../images/covers/eduNtrain.jpg");
 }
 
-/* -------------service section  */
+/* service page er service style */
+#our-servces-soft-offered-services .offer_services {
+}
+#our-servces-soft-offered-services .offer_services ul {
+}
+#our-servces-soft-offered-services .offer_services ul li {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+#our-servces-soft-offered-services .offer_services ul li i {
+  margin-right: 10px;
+  color: #7d879e;
+}
 
 /* ========industries_we_serve_section======== */
 #industries_we_serve_section {
@@ -637,8 +649,9 @@ nav {
 
 .inda_logos {
   display: flex;
+  width: 100%;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .inda_logos h6 {
