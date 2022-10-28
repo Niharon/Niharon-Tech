@@ -43,3 +43,11 @@
     height: 60px !important;
   }
 } */
+
+/* ========industries_we_serve_section======== */
+
+@media screen and (max-width: 500px) and (min-width: 300px) {
+  .inda_logos {
+    justify-content: start !important;
+  }
+}
