@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OdolBodol | Niharon Softwares</title>
+    <link rel="icon" href="../images/logo/Niharon Logo Renew.png" />
+
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body class="w-100 d-flex flex-column justify-content-center align-items-center" onload="abc(15)">
+    <!-- ====================header_part==================== -->
+    <section id="header_part" class="device_resp"></section>
+
+    <main class="mb-5 pb-5 d-flex flex-column justify-content-center align-items-center">
+      <!-- content text section  -->
+      <section
+        id=""
+        class="w-sm-100 sectionwidth my-5 pt-5 d-flex flex-column justify-content-center align-items-center"
+      >
+        <img class="mb-4" src="../images/product details/odurei.png" width="200" alt="class manager pic..." />
+        <h2 class="mb-2 fw-bold text-center">Buy and sell old things within the people nearby.</h2>
+        <p class="text-center">
+          Buy & sell old things within your 500 meters to 2 kilometers distance with out the charge of any middle man.
+        </p>
+
+        <div class="row g-5 w-100">
+          <div class="col-6 w-50 padding_btn">
+            <div class="d-flex justify-content-end">
+              <button
+                onclick="location.href='https://play.google.com/store/apps/details?id=com.niharon.odolbodol&hl=en&gl=US' "
+                class="btn mt-1 btn_style"
+                id="soft-dev-learn-more"
+              >
+                Use App
+              </button>
+            </div>
+          </div>
+          <div class="col-6 w-50 padding_btn">
+            <div class="d-flex justify-content-right">
+              <button
+                onclick="location.href='https://odurei.niharon.com/' "
+                class="mt-1 btn_style2"
+                id="soft-dev-learn-more"
+              >
+                Join from web
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- content text section  -->
+
+      <!-- 3 col section  -->
+      <section id="" class="w-100 my-5 py-5 d-flex justify-content-center align-items-center">
+        <div class="w-75 d-flex justify-content-center align-items-center">
+          <div class="row w-100 g-5">
+            <div class="col-sm-12 col-lg-4">
+              <div class="flex-column d-flex justify-content-center align-items-center">
+                <img src="../images/product details/44063.jpg" alt="all in one pic..." width="100" height="70" />
+                <h2 class="text-center card_hgt my-3 font_style">Sell your old things</h2>
+                <p class="text-center">Sell the old things that you no longer need.There might be someone near you</p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-4">
+              <div class="flex-column d-flex justify-content-center align-items-center">
+                <img src="../images/product details/ob2.png" alt="all in one pic..." width="100" height="70" />
+                <h2 class="text-center card_hgt my-3 font_style">Buy used things at cheap price</h2>
+                <p class="text-center">Find someone near you who is selling that book.</p>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-4">
+              <div class="flex-column d-flex justify-content-center align-items-center">
+                <img src="../images/product details/ob3.png" width="100" height="70" alt="all in one pic..." />
+                <h2 class="text-center card_hgt my-3 font_style">Exchange things within a short distance</h2>
+                <p class="text-center">
+                  Odurei offers you to exchange things within short distance to reduce the cost of middle man.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 3 col section  -->
+
+      <!-- video section  -->
+      <section id="" class="w-100 mb-5 py-5 d-flex flex-column justify-content-center align-items-center">
+        <h2 class="fw-bold text-center">We have created a video for you</h2>
+        <p class="text-center">Video is more helpful to understanding something than just reading from the text.</p>
+        <div class="d-flex justify-content-center align-items-center vdo_size">
+          <iframe
+            width="885"
+            height="498"
+            src="https://www.youtube.com/embed/JbYEP2bZQL0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <!-- video section  -->
+    </main>
+
+    <!-- ====footer_page==== -->
+    <footer id="footer_part" class="footer_part_class"></footer>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "105167628215516");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v13.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+
+    <script src="../ness2.js"></script>
+    <script src="../footer.js"></script>
+    <script src="../js/navbarscroll.js"></script>
+    <script src="../js/easy_background.js"></script>
+    <!-- easy_bg_slide -->
+    <script>
+      easy_background("#header_part", {
+        slide: [
+          "../images/carousol/bgslide3.jpg",
+          "../images/carousol/bgslide5.jpg",
+          "../images/carousol/bgslide7.jpg",
+          "../images/carousol/bgslide8.jpg",
+          "../images/carousol/bgslide6.jpg",
+        ],
+        delay: [1000, 5000, 5000, 5000, 5000],
+      });
+    </script>
+  </body>
+</html>

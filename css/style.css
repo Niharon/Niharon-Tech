@@ -573,6 +573,10 @@ nav {
 #c-12 {
   background-image: url("../images/projects/online_bank_management.jpg");
 }
+#c-13 {
+  background-image: url("../images/covers/odureibanner.jpg");
+}
+
 .pp-rounded {
   border-radius: 7px;
 }
@@ -734,6 +738,10 @@ footer {
 #our-servces-saas-car {
   background-image: url(../images/covers/saas-1.jpg);
   height: 400px;
+}
+/* =============contact_ us section============= */
+#cnt-us .w_90 {
+  width: 90%;
 }
 
 /* =========get_in_touch========= */
