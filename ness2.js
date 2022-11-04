@@ -16,7 +16,28 @@ const texts = [
   "Class Manager",
   "Shop Manager",
   "OdolBodol",
+  "Odurei",
 ];
+
+const pera_title = [
+  "We have done several impactful projects which will make your life easy and introduce you to new systems",
+  "We have designed and developed custom software applications, frameworks, and tools that help solve problems or achieve a specific outcome for our clients and the nation.",
+  "Check out our technical and latest impactful blogs to enrich yourself",
+  "We are a team to execute effective and efficient projects to contribute in this digital era",
+  "If you want any technical support and impactful place in this digital world, contact with us",
+  "Receive full-cycle web development services from a draft idea to a ready-to-use website, backed by top technologies. ",
+  "Reach your users on their favorite devices with native and cross platform development, supported by best industry practices. ",
+  "We provide Software as a Service (SaaS) through various platforms and automate complex tasks over the internet.",
+  "We have solved data-related problems to gain insights from data and help businesses to grow and help to automate to make life easier.",
+  "We have several books on programming and Computer Science to help you to learn easily.",
+  "We have a wide range of networks that will help you to grow your business.",
+  "We have skillful tutors and effective courses which will help you to increase your knowledge and skills in programming and Computer Science. ",
+  "Never miss a class anymore!",
+  "Manage your shop at ease!",
+  "Buy and sell old books within the people nearby.",
+  "Buy and sell old things within the people nearby.",
+];
+
 function abc(x) {
   console.log("connect");
   HeaderNavbar.innerHTML = `
@@ -72,8 +93,7 @@ function abc(x) {
           <div class="col-auto">
             <div class="banner_part text-center">
               <p class=" px-3">
-                We deliver applied research innovation, technology development and solutions for customers large and
-                small across the world.
+              ${pera_title[x]}
               </p><br><br>
               <a href="#" class="mt-3 hdr_btn_mdl">Explore Now</a>
             </div>

@@ -517,7 +517,7 @@ nav {
 }
 /* car animation  */
 
-/*--------------------------------------- CAROUsOL SECTION  */
+/*==========CAROUsOL SECTION==========  */
 
 /* =============our_products_section=============  */
 .ccc {
@@ -570,6 +570,13 @@ nav {
 #c-11 {
   background-image: url("../images/projects/chat_app.jpg");
 }
+#c-12 {
+  background-image: url("../images/projects/online_bank_management.jpg");
+}
+#c-13 {
+  background-image: url("../images/covers/odureibanner.jpg");
+}
+
 .pp-rounded {
   border-radius: 7px;
 }
@@ -582,9 +589,10 @@ nav {
   padding: 10px 20px;
   color: #050202;
   transition: 1s;
-  border: 1px solid #50a3d9;
+  /* border: 1px solid #50a3d9; */
   border-radius: 10px;
-  box-shadow: 0px 0px 5px 0px #4f4f4f;
+  /* box-shadow: 0px 0px 5px 0px #4f4f4f; */
+  box-shadow: 1px 1px 7px 3px #373ae630;
 }
 
 /* .sass_see_more_btn .btn_t:hover {
@@ -595,7 +603,7 @@ nav {
   box-shadow: 0 !important;
 }
 
-/* ------------------service section  */
+/* ==============service section============== */
 .scc {
   height: 210px;
   width: 100%;
@@ -613,7 +621,23 @@ nav {
   background-image: url("../images/covers/eduNtrain.jpg");
 }
 
-/* -------------service section  */
+/* service page er service style */
+#our-servces-soft-offered-services .offer_services {
+}
+#our-servces-soft-offered-services .offer_services ul {
+}
+#our-servces-soft-offered-services .offer_services ul li {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+#our-servces-soft-offered-services .offer_services ul li i {
+  margin-right: 10px;
+  color: #7d879e;
+}
+
+.inda_textc {
+  color: #1d4499 !important;
+}
 
 /* ========industries_we_serve_section======== */
 #industries_we_serve_section {
@@ -633,8 +657,9 @@ nav {
 
 .inda_logos {
   display: flex;
+  width: 100%;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .inda_logos h6 {
@@ -717,6 +742,10 @@ footer {
 #our-servces-saas-car {
   background-image: url(../images/covers/saas-1.jpg);
   height: 400px;
+}
+/* =============contact_ us section============= */
+#cnt-us .w_90 {
+  width: 90%;
 }
 
 /* =========get_in_touch========= */
