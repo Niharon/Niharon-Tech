@@ -7,20 +7,27 @@
     <title>Class Manager | Niharon Softwares</title>
     <link rel="icon" href="../images/logo/Niharon Logo Renew.png" />
 
-    <!-- bootstrap link  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- custom css link  -->
     <link rel="stylesheet" href="../css/responsive.css" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
 
-  <body class="w-100 d-flex flex-column justify-content-center align-items-center" onload="abc(12)">
-    <!-- ====================header_part==================== -->
-    <section id="header_part" class="device_resp"></section>
+  <body class="" onload="abc(12)">
+    <!-- =======preloader id =======-->
+    <div id="preloader"></div>
 
     <main class="mb-5 pb-5 d-flex flex-column justify-content-center align-items-center">
+      <!-- ====================header_part==================== -->
+      <section id="header_part" class="device_resp"></section>
+
       <!-- content text section  -->
       <section
         id=""
@@ -40,7 +47,6 @@
           Get it for free
         </button>
       </section>
-      <!-- content text section  -->
 
       <!-- 3 col section  -->
       <section id="" class="w-100 my-5 py-5 d-flex justify-content-center align-items-center">
@@ -76,7 +82,6 @@
           </div>
         </div>
       </section>
-      <!-- 3 col section  -->
 
       <!-- video section  -->
       <section id="" class="w-100 mb-5 py-5 d-flex flex-column justify-content-center align-items-center">
@@ -134,10 +139,7 @@
       })(document, "script", "facebook-jssdk");
     </script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="../ness2.js"></script>
     <script src="../footer.js"></script>
@@ -154,6 +156,12 @@
           "../images/carousol/bgslide6.jpg",
         ],
         delay: [1000, 5000, 5000, 5000, 5000],
+      });
+    </script>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
       });
     </script>
   </body>

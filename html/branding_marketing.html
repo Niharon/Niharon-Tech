@@ -16,11 +16,14 @@
     <script src="https://kit.fontawesome.com/a4715fc7ee.js" crossorigin="anonymous"></script>
   </head>
 
-  <body class="w-100 d-flex flex-column justify-content-center align-items-center" onload="abc(10)">
-    <!-- new header -->
-    <section id="header_part" class="device_resp"></section>
+  <body class="" onload="abc(10)">
+    <!-- =======preloader id =======-->
+    <div id="preloader"></div>
 
     <main class="mb-5 pb-5 d-flex flex-column justify-content-center align-items-center">
+      <!-- ======header_part====== -->
+      <section id="header_part" class="device_resp"></section>
+
       <!-- carousel section  -->
 
       <!-- content text section  -->
@@ -160,6 +163,12 @@
           delay: [1000, 5000, 5000, 5000, 5000],
         }
       );
+    </script>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
     </script>
   </body>
 </html>
