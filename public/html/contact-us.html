@@ -1,103 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | Niharon Technologies</title>
     <link rel="icon" href="../images/logo/Niharon Logo Renew.png" />
 
-    <!-- Email-JS -->
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-    (function(){
-        emailjs.init("c21Fne0wFGq-QfrhA");
-    })();
-    </script>
+    <!-- font awesome link  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 
     <!-- bootstrap link  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
     <!-- custom css link  -->
-    <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <!-- fontawesome link  -->
-    <script src="https://kit.fontawesome.com/a4715fc7ee.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-
-<body class="w-100 d-flex flex-column justify-content-center align-items-center" onload = "abc(4)">
-
-<!-- ==================header_part================== -->
-
-<section id="header_part" class="device_resp">
-
-</section>
+  <body class="" onload="abc(4)">
+    <!-- =======preloader id =======-->
+    <div id="preloader"></div>
 
     <main class="w-100 d-flex flex-column justify-content-center align-items-center mb-4">
+      <!-- ==================header_part================== -->
+      <section id="header_part" class="device_resp"></section>
 
-        <!-- section contact us here  -->
-        <section id="cnt-us"
-            class="w-sm-100 sectionwidthBlog my-5 pb-5 d-flex flex-column justify-content-center align-items-center content">
-            <h2 class=" my-4 text-center" style="color: #51A4DA;">Contact Form</h1>
-                <h6 class="text-secondary text-center mb-5 text-center"> Need help with anything? Get in touch with us.
-                </h6>
+      <!-- section contact us here  -->
+      <section
+        id="cnt-us"
+        class="w-sm-100 sectionwidthBlog my-5 pb-5 d-flex flex-column justify-content-center align-items-center content"
+      >
+        <h2 class="my-4 text-center" style="color: #51a4da">Contact Form</h2>
+        <h6 class="text-secondary text-center mb-5 text-center">Need help with anything? Get in touch with us.</h6>
 
-                <div class="text-secondary mb-4 w_90">
-                    <div class="row g-4">
-                        <div class="col-sm-12 col-lg-12 px-3">
-                            <div class="">
-                                <form class="row g-3" id="cntForm">
-                                    <div class="col-md-6 col-sm-12">
-                                        <label for="firstName" class="form-label">First Name</label>
-                                        <input type="text" class="form-control" id="firstName">
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <label for="lastName" class="form-label">Last Name</label>
-                                        <input type="text" class="form-control" id="lastName">
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="Phone_no" class="form-label">Phone Number</label>
-                                        <input type="text" class="form-control" id="Phone_no">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <label for="email_id" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email_id">
-                                    </div>
+        <div class="text-secondary mb-4 w_90">
+          <div class="row g-4">
+            <div class="col-sm-12 col-lg-12 px-3">
+              <div class="">
+                <form class="row g-3" id="cntForm">
+                  <div class="col-md-6 col-sm-12">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" />
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" />
+                  </div>
+                  <div class="col-12">
+                    <label for="Phone_no" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="Phone_no" />
+                  </div>
+                  <div class="col-md-12">
+                    <label for="email_id" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email_id" />
+                  </div>
 
-                                    <div class="col-md-12">
-                                        <label for="msg" class="form-label">Your Message</label>
-                                        <textarea type="text" class="form-control" id="msg" rows="4"> </textarea>
-                                    </div>
+                  <div class="col-md-12">
+                    <label for="msg" class="form-label">Your Message</label>
+                    <textarea type="text" class="form-control" id="msg" rows="4"> </textarea>
+                  </div>
 
-                                    <div onclick="sweetallert()"
-                                        class="col-12 d-flex justify-content-center align-items-center">
-                                        <button type="button" data-toggle="modal" data-target=".bd-example-modal-sm"
-                                            class="btn px-5" id="cnt-submit-btn">Submit</button>
-                                        <!-- Modal -->
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
+                  <div onclick="sweetallert()" class="col-12 d-flex justify-content-center align-items-center">
+                    <button
+                      type="button"
+                      data-toggle="modal"
+                      data-target=".bd-example-modal-sm"
+                      class="btn px-5"
+                      id="cnt-submit-btn"
+                    >
+                      Submit
+                    </button>
+                    <!-- Modal -->
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
- <!-- ================get_in_touch================ -->
+      <!-- ================get_in_touch================ -->
       <section id="get_in_touch" class="my-3">
         <div class="container">
           <!-- <div class="row justify-content-center">
-            <div class="col-auto mt_60">
-              <div class="about_txt text-center">
-                <h2 class="my-3">Get in touch</h2>
-                <h5 class="mb-5">Need help with anything? Get in touch with us.</h5>
+              <div class="col-auto mt_60">
+                <div class="about_txt text-center">
+                  <h2 class="my-3">Get in touch</h2>
+                  <h5 class="mb-5">Need help with anything? Get in touch with us.</h5>
+                </div>
               </div>
-            </div>
-          </div> -->
+            </div> -->
           <div class="row">
             <div class="col-lg-3 col-12 col-md-6 my-2">
               <div class="card text-center card_bg">
@@ -164,52 +158,58 @@
       </section>
     </main>
 
-   <footer id="footer_part" class="footer_part_class"></footer>
+    <footer id="footer_part" class="footer_part_class"></footer>
     <!-- Messenger Chat Plugin Code -->
     <div id="fb-root"></div>
 
     <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
     <script>
-      var chatbox = document.getElementById('fb-customer-chat');
+      var chatbox = document.getElementById("fb-customer-chat");
       chatbox.setAttribute("page_id", "105167628215516");
       chatbox.setAttribute("attribution", "biz_inbox");
     </script>
 
+    <!-- Email-JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("c21Fne0wFGq-QfrhA");
+      })();
+    </script>
+
     <!-- Your SDK code -->
     <script>
-      window.fbAsyncInit = function() {
+      window.fbAsyncInit = function () {
         FB.init({
-          xfbml            : true,
-          version          : 'v13.0'
+          xfbml: true,
+          version: "v13.0",
         });
       };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
         fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+      })(document, "script", "facebook-jssdk");
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-  <script src="../ness2.js"></script>
-   <script src="../footer.js"></script>
-  <script src="../js/contact-us.js"></script>
- <script src="../js/navbarscroll.js"></script>
- <script src="../js/easy_background.js"></script>
- <script>
+    <script src="../ness2.js"></script>
+    <script src="../footer.js"></script>
+    <script src="../js/contact-us.js"></script>
+    <script src="../js/navbarscroll.js"></script>
+    <script src="../js/easy_background.js"></script>
+    <script>
       easy_background(
         "#header_part",
 
@@ -225,7 +225,11 @@
         }
       );
     </script>
-
-</body>
-
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
+  </body>
 </html>

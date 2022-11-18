@@ -6,7 +6,7 @@ HeaderNavbar.innerHTML = `
           <div class="row">
             <div class="col-lg-12 d-flex justify-content-center align-items-center">
               <nav class="navbar navbar-expand-lg navbar-dark nav_float fixed-top bgcolor">
-                <a href="#" class=""><img width="150" src="images/logo/Niharon Logo Renew-02.png" alt="no img" /></a>
+                <a href="index.html" class=""><img width="150" src="images/logo/Niharon Logo Renew-02.png" alt="no img" /></a>
 
                 <button
                   class="navbar-toggler"

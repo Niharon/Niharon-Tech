@@ -16,9 +16,13 @@
     <!-- fontawesome link  -->
     <script src="https://kit.fontawesome.com/a4715fc7ee.js" crossorigin="anonymous"></script>
   </head>
-  <body class="w-100 d-flex flex-column justify-content-center align-items-center" onload="abc(2)">
-    <section id="header_part" class="device_resp"></section>
+  <body class="" onload="abc(2)">
+    <!-- =======preloader id =======-->
+    <div id="preloader"></div>
+
     <main class="w-100 d-flex flex-column justify-content-center align-items-center mb-4">
+      <section id="header_part" class="device_resp"></section>
+
       <!-- =====section blog here=====  -->
       <section id="blogs_section">
         <div class="about_txt text-center">
@@ -96,6 +100,12 @@
           delay: [1000, 5000, 5000, 5000, 5000],
         }
       );
+    </script>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
     </script>
   </body>
 </html>
