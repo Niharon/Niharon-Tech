@@ -3,7 +3,7 @@ const HeaderNavbar = document.getElementById("header_part");
 const texts = [
   "Projects",
   "Services",
-  "Blog",
+  "Vlog",
   "About",
   "Contact Us",
   "Web Development",
@@ -64,7 +64,7 @@ function abc(x) {
                     <a class="nav-link" href="our-services.html">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="blog.html">Vlog</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
@@ -84,7 +84,7 @@ function abc(x) {
         <div class="row mt_100">
           <div class="col-lg-12">
             <div class="type_writter text-center">
-              <h2>${texts[x]}</h2>
+              <h2 class="mb-0">${texts[x]}</h2>
             </div>
           </div>
         </div>
@@ -92,15 +92,20 @@ function abc(x) {
         <div class="row justify-content-center mt_20">
           <div class="col-auto">
             <div class="banner_part text-center">
-              <p class=" px-3">
+              <p class="px-3">
               ${pera_title[x]}
               </p><br><br>
-              <a href="#" class="mt-3 hdr_btn_mdl">Explore Now</a>
+              <div class="scroll-downs">
+              <div class="mousey">
+                <div class="scroller"></div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
 `;
 }
 
