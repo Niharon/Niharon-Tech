@@ -826,7 +826,7 @@ footer {
 /* =======preloader part======= */
 
 #preloader {
-  background: #ffffff url(/images/preloader/preloader_gif4.gif) no-repeat center;
+  background: #ffffff url(../images/preloader/preloader_gif4.gif) no-repeat center;
   background-size: 22%;
   height: 100vh;
   width: 100%;
