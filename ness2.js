@@ -21,7 +21,7 @@ const texts = [
 
 const pera_title = [
   "We have done several impactful projects which will make your life easy and introduce you to new systems",
-  "We have designed and developed custom software applications, frameworks, and tools that help solve problems or achieve a specific outcome for our clients and the nation.",
+  "We design & develope custom software and applications that solves many problem or achieve specific outcome for our clients and the world.",
   "Vlogs is where, we normally show about what we are doing and what we did so far.",
   "We are a team to execute effective and efficient projects to contribute in this digital era",
   "If you want any technical support and impactful place in this digital world, contact with us",
