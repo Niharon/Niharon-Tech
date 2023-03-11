@@ -56,7 +56,7 @@ HeaderNavbar.innerHTML = `
                     href=""
                     class="typewrite"
                     data-period="2000"
-                    data-type='[ "Niharon Techonologies", "Software Development", "Web Development","SaaS Projects", "Open Source Projects","Odolbodol", "Class Manager", "Shop Manager", "Education & Training", "Package Development" ]'
+                    data-type='[ "Niharon Technologies", "Software Development", "Web Development","SaaS Projects", "Open Source Projects","Odolbodol", "Class Manager", "Shop Manager", "Education & Training", "Package Development" ]'
                   >
                     <span class="wrap"></span
                   ></a>
