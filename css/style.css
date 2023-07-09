@@ -40,7 +40,11 @@ h6 {
   /* background: linear-gradient(180deg, #51a4da75 0%, #20409a4d 100%); */
   /* background: linear-gradient(180deg, #8cfb5a75 0%, #20409a4d 100%); */
   /* background: linear-gradient(180deg, #8cfb5ad9 0%, #20409ac2 100%); */
-  background: radial-gradient(circle, rgba(49, 148, 182, 0.9) 0%, rgba(18, 15, 46, 0.93) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(49, 148, 182, 0.9) 0%,
+    rgba(18, 15, 46, 0.93) 100%
+  );
   width: 100%;
   height: 170vh;
 }
@@ -826,7 +830,8 @@ footer {
 /* =======preloader part======= */
 
 #preloader {
-  background: #ffffff url(../images/preloader/preloader_gif4.gif) no-repeat center;
+  background: #ffffff url(../images/preloader/preloader_gif4.gif) no-repeat
+    center;
   background-size: 22%;
   height: 100vh;
   width: 100%;
