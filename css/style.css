@@ -577,6 +577,18 @@ nav {
 #c-13 {
   background-image: url("../images/covers/odureibanner.jpg");
 }
+#c-14 {
+  background-image: url("../images/projects/bocs_client.jpg");
+}
+#c-15 {
+  background-image: url("../images/projects/tamrin.png");
+}
+#c-16 {
+  background-image: url("../images/projects/dlifes.png");
+}
+#c-17 {
+  background-image: url("../images/projects/mentorova.jpg");
+}
 
 .pp-rounded {
   border-radius: 7px;

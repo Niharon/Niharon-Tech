@@ -51,7 +51,7 @@ FooterPart.innerHTML = `
             <div>
               <h5 class="mt-3">Get In Touch</h5>
               <hr />
-              <p class="fs-6">Address: Talaimari, Rajshahi-6000, Bangladesh</p>
+              <p class="fs-6">Address: Suite No: 216, 8th Floor, Muktobangla Complex, Mirpur-1, Dhaka-1216</p>
               <p class="fs-6 m-0">Mob: +880 1706-335199 (Reception)</p>
               <p class="fs-6 m-0">Mob: +880 1627-833354 (HR)</p>
               <p class="fs-6 m-0">Email : niharonsoftware@gmail.com</p>
