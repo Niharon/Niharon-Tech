@@ -62,15 +62,15 @@ FooterPart.innerHTML = `
           <div class="col-sm-12 col-lg-3 d-flex justify-content-lg-end" style="margin-top: 60px">
             <div class="w-100">
               <p>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7269.163168326375!2d88.62663392105793!3d24.36106371078366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefd987321753%3A0xaeeaf3cccca5149a!2sKazla%2C%20Rajshahi!5e0!3m2!1sen!2sbd!4v1649611844761!5m2!1sen!2sbd"
-                  width="100%"
-                  height="200"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
+                 <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.6391198950777!2d90.35199218758653!3d23.79880306263369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c13991c3cd01%3A0x879716d5a4249c0c!2zTXVrdG9iYW5nbGEgU2hvcHBpbmcgQ29tcGxleC3gpq7gp4HgppXgp43gpqTgpqzgpr7gpoLgprLgpr4g4Ka24Kaq4Ka_4KaCIOCmleCmruCmquCnjeCmsuCnh-CmleCnjeCmuA!5e0!3m2!1sbn!2sbd!4v1692446830982!5m2!1sbn!2sbd"
+                    width="100%"
+                    height="200"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
               </p>
             </div>
           </div>

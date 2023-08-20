@@ -28,19 +28,26 @@ let people = [
   },
 
   {
-    photo: 'url("images/client_testimonial/rakib_hasnat.jpg")',
-    name: "Md. Rakibul Biswas",
-    profession: "Founder, Ahoron",
+    photo: 'url("images/client_testimonial/Dr.Bipul.jpeg")',
+    name: "Dr. Bipul Kumer Sarker",
+    profession: "Founder, BOCS Academy",
     description:
-      "We have been very happy with our new website! It looks professional and very easy to navigate. I would highly recommend Niharon Technology. They are great to work with.",
+      "I'm truly impressed with this BOCS course app! The seamless execution and user-friendly interface make learning a breeze. The app's flawless performance and comprehensive content have transformed the way I study, exceeding my expectations. The prompt and knowledgeable support throughout the learning journey demonstrates the team's commitment to learners' success. Undoubtedly, this app has become an invaluable tool for my education.",
   },
 
   {
-    photo: 'url("images/client_testimonial/riad_hasan.jpg")',
-    name: "Md. Riad Hasan",
-    profession: "Founder, Softology",
+    photo: 'url("images/client_testimonial/MuftiShahadatSadman.jpg")',
+    name: "Mufti Shahadat Sadman",
+    profession: "Language Instructor, Madrasatul Insaf CEO, Tamrin Institute",
     description:
-      "It was an amazing deal. Your work is so professional. I am happy with that. Next time, I will go with you without any thought. Thank you.",
+      "This software project is a game-changer. Its intuitive interface makes navigation a breeze, while its powerful features streamline our tasks efficiently. The attention to detail is evident in its flawless performance, providing a reliable tool we can depend on. Regular updates keep bringing fresh improvements, and the responsive support team ensures a smooth experience. A must-have for anyone seeking enhanced productivity.",
+  },
+  {
+    photo: 'url("images/client_testimonial/profile-avatar.png")',
+    name: "Nafiur Rahman Niloy",
+    profession: "Founder, dLifes",
+    description:
+      "This software is a game-changer. Its powerful features, combined with an intuitive interface, make tasks effortless. Regular updates showcase the developers' commitment to excellence, ensuring a top-notch user experience.",
   },
 ];
 
