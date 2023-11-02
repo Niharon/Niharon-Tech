@@ -12,6 +12,22 @@ let isChickenVisible;
 
 let people = [
   {
+    photo: 'url("images/client_testimonial/Dr.Bipul.jpeg")',
+    name: "Dr. Bipul Kumer Sarker",
+    profession: "Founder, BOCS Academy",
+    description:
+      "I'm truly impressed with this BOCS course app! The seamless execution and user-friendly interface make learning a breeze. The app's flawless performance and comprehensive content have transformed the way I study, exceeding my expectations. The prompt and knowledgeable support throughout the learning journey demonstrates the team's commitment to learners' success. Undoubtedly, this app has become an invaluable tool for my education.",
+  },
+
+  {
+    photo: 'url("images/client_testimonial/Dr._Arif_Hayat_Khan_Pathan.jpg")',
+    name: "Dr. Arif Hayat Khan Pathan",
+    profession: "Chairman, RGC Hospital",
+    description:
+      "Working with NIHARON Technologies for our hospital website was an exceptional experience. Their expertise, professionalism, and attention to detail were impressive. The team was responsive, met deadlines, and delivered a high-quality website that enhances our online presence. Highly recommended!",
+  },
+
+  {
     photo: 'url("images/client_testimonial/rakib_hasnat.jpg")',
     name: "Md. Rakibul Biswas",
     profession: "Founder, Ahoron",
@@ -25,14 +41,6 @@ let people = [
     profession: "Founder, Softology",
     description:
       "It was an amazing deal. Your work is so professional. I am happy with that. Next time, I will go with you without any thought. Thank you.",
-  },
-
-  {
-    photo: 'url("images/client_testimonial/Dr.Bipul.jpeg")',
-    name: "Dr. Bipul Kumer Sarker",
-    profession: "Founder, BOCS Academy",
-    description:
-      "I'm truly impressed with this BOCS course app! The seamless execution and user-friendly interface make learning a breeze. The app's flawless performance and comprehensive content have transformed the way I study, exceeding my expectations. The prompt and knowledgeable support throughout the learning journey demonstrates the team's commitment to learners' success. Undoubtedly, this app has become an invaluable tool for my education.",
   },
 
   {
